@@ -1,0 +1,261 @@
+// Responsive
+@import url("respon.css");
+@import url("style.css");
+
+:root {
+    --main-color: #9771b0;
+}
+
+* {
+    outline: none;
+}
+
+.site {
+    &-header {
+        height: 120px;
+        background-color: transparent;
+        .container {
+            max-width: 96%;
+            width: 100%;
+        }
+        #myNav {
+            width: 100%;
+            display: none;
+            transition: 2s;
+        }
+        .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+            &-content {
+                //position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                padding-top: 34px;
+                div {
+                    display: flex;
+                }
+            }
+            a {
+                padding: 8px;
+                text-decoration: none;
+                font-size: 30px;
+                color: #fff;
+                display: block;
+                transition: 0.3s;
+                margin-bottom: 15px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:hover,
+                &:focus {
+                    color: var(--main-color);
+                    // path {
+                    //     fill: var(--main-color);
+                    // }
+                }
+            }
+            .closebtn {
+                position: absolute;
+                top: 13%;
+                right: 9%;
+                font-size: 70px;
+                font-weight: 300;
+                &:hover {
+                    transform: rotate(90deg);
+                    color: var(--main-color);
+                }
+            }
+        }
+        .sh {
+            &-content {
+                &-wrap {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    .openbtn {
+                        font-size: 30px;
+                        cursor: pointer;
+                        margin-left: -18px;
+                        margin-right: 22px;
+                    }
+                }
+                &-logo {
+                    a {
+                        img {
+                            width: 160px;
+                        }
+                    }
+                }
+            }
+            &-col {
+                display: flex;
+                flex: 1 0 auto;
+                &__left {
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+                &__right {
+                    justify-content: flex-end;
+                    margin-right: -34px;
+                    div {
+                        margin-right: 22px;
+                        a {
+                            &:hover {
+                                filter: invert(51%) sepia(20%) saturate(835%) hue-rotate(233deg) brightness(92%) contrast(90%);
+                            }
+                        }
+                        &:last-child {
+                            position: relative;
+                            &::after {
+                                content: "0";
+                                position: absolute;
+                                background-color: var(--main-color);
+                                top: -7px;
+                                right: -1px;
+                                color: #fff;
+                                border-radius: 50%;
+                                width: 50%;
+                                height: 50%;
+                                font-size: 10px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-main {
+        .section {
+            &-one {
+                .slick {
+                    &-initialized,
+                    &-slide {
+                        display: block;
+                        display: flex;
+                        transform: translateX(-10px);
+                    }
+                    &-dots {
+                        display: flex;
+                        position: absolute;
+                        bottom: 3%;
+                        left: 11%;
+                        li {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 22px;
+                            button {
+                                border: none;
+                                border-radius: 50%;
+                                background-color: #99999973;
+                                color: transparent;
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                        .slick-active {
+                            button {
+                                border: none;
+                                border-radius: 50%;
+                                background-color: #BFABCD;
+                                color: #BFABCD;
+                                width: 14px;
+                                height: 14px;
+                            }
+                        }
+                    }
+                    
+                }
+                .grid {
+                    &__column {
+                        &:first-child {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: center;
+                            width: 37.2%;
+                            padding-left: 76px;
+                            padding-right: 62px;
+                            font-size: 20px;
+                            letter-spacing: -1px;
+                            .h1mr {
+                                font-weight: 600;
+                                text-transform: uppercase;
+                                transform: translateY(22px);
+                            }
+                            p {
+                                text-transform: uppercase;
+                                font-size: 18px;
+                                transform: translateY(14px);
+                            }
+                            strong {
+                                font-size: 40px;
+                                transform: translateY(5px);
+                                font-weight: 500;
+                                color: var(--main-color);
+                            }
+                            button {
+                                padding: 15px 30px;
+                                border: 1px solid;
+                                font-weight: 400;
+                                background-color: #fff;
+                                letter-spacing: -1px;
+                                font-size: 16px;
+                                transform: translateY(22px);
+                                &:hover {
+                                    @extend %hover;
+                                }
+                            }
+                        }
+                        &:last-child {
+                            padding: 0;
+                            width: 62.8%;
+                        }
+                    }
+                }
+            }
+            &-two {
+                .h2mr {
+                    color: #C3C3C3;
+                    font-size: 44px;
+                    transform: translate(-610px, -190px) rotate(-90deg);
+                    font-weight: 600;
+                    letter-spacing: 4px;
+                }
+                .grid {
+                    padding-left: 120px;
+                    &__column {
+                        width: 32.8%;
+                        a {
+                            display: block;
+                            margin-right: 30px;
+                            img {
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Extend
+%hover {
+    color: #fff;
+    background-color: var(--main-color);
+    transition: .4s;
+}
