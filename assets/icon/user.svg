@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 32" width="25" height="32">
-	<defs>
-		<image width="19" height="19" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAMAAABFjsb+AAAAAXNSR0IB2cksfwAAALpQTFRF////39/fb29vMzMzc3Nz5OTk3d3dUVFROTk5hYWFmJiYe3t7+fn52tragYGB4eHhT09Pqqqq3t7eTExMzc3NycnJ5eXlVFRUlJSU/Pz8jo6ONzc3qampq6ur6+vra2trQUFBXFxc9vb2paWlSkpKRkZGn5+f/v7+7OzsvLy8h4eHV1dX+Pj4fn5+sbGxy8vL5+fn7+/v4+Pjvr6+kJCQWFhYz8/P/f390dHR6enpWVlZpqamU1NTXl5e0IK9ZQAAAD50Uk5TAP////+w////////AP//4P///////6D//wD/////QP///wD/////ADD///8A////gADA/////wD/YP////9R9IrbAAAAtUlEQVR4nIWP1xKCMBBFo1ECCtJrFBClY8FO8f9/S8yMEJ48L3f2zGQ3FwDCZAohnM0BBYNYbrFkETMonkNCFwJa8b0TJZmkLIm9U1SNpKYqlNNJ6pQzTMvuwnZMo3e2g9c84DesYw+HXQ/6Wx96Lv3BYLeHYRSA/8RBTI9JmuW464vzLE2IKSwcHo6nc1lerrc7toruTYQez2HDC0UxqOpmtLepq77rj29nRW3fNC1xcIyqfADoPhGpkF89UgAAAABJRU5ErkJggg=="/>
-	</defs>
-	<style>
-		tspan { white-space:pre }
-	</style>
-	<use id="Background" href="#img1" x="3" y="5" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M313.6 288c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4zM416 464c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16v-41.6C32 365.9 77.9 320 134.4 320c19.6 0 39.1 16 89.6 16 50.4 0 70-16 89.6-16 56.5 0 102.4 45.9 102.4 102.4V464zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm0-224c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"/></svg>

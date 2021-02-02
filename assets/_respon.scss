@@ -1,0 +1,32 @@
+@media screen and (max-height: 450px) {
+    .overlay {
+        a {
+            font-size: 20px
+        }
+        .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+}
+
+//Mobile
+@media screen and (max-width: 739px) {
+    
+}
+
+//Tablet 
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+//Ipad pro + laptop 
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+
+}
+
+// 2K
+@media screen and (min-width: 2047px) {
+
+}

@@ -1,18 +1,20 @@
 "use strict";
 
 jQuery(document).ready(function ($) {
-  //Navbar full
+  //Navbar
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 50) {
+      $(".site-header").addClass("site-hd__on");
+    } else {
+      $(".site-header").removeClass("site-hd__on");
+    }
+  }); //Navbar full
+
   $(function () {
     $(".closebtn").click(function () {
-      //$("#myNav").css("width", "0%");
-      //$("#myNav").hide(3000);
-      //$("#myNav").fadeOut("slow");
       $("#myNav").removeClass("myNavOn");
     });
     $(".openbtn").click(function () {
-      //$("#myNav").css("width", "100%");
-      //$("#myNav").show(3000);
-      //$("#myNav").fadeIn("slow");
       $("#myNav").addClass("myNavOn");
     });
   }); //Carousel
@@ -29,9 +31,28 @@ jQuery(document).ready(function ($) {
 
   $(function () {
     $(".main-card, .mc__title").hover(function () {
-      $(".mc__show").toggleClass("mc__show--on"); //$(".mc__title").toggleClass("mc-titile__show");
-
+      $(".mc__show").toggleClass("mc__show--on");
       $(".mc__title").toggleClass("mc__title--show");
+      $(".mc__action-icon--cart").toggleClass("mc__acic-cart--on");
+      $(".mc__action-icon--qv").toggleClass("mc__acic-qv--on");
+      $(".mc__action-icon--vwl").toggleClass("mc__acic-vwl--on");
+      $(".mc__action-icon--compare").toggleClass("mc__acic-compare--on");
+    });
+    $(".main-card-2, .mc__title-2").hover(function () {
+      $(".mc__show-2").toggleClass("mc__show--on");
+      $(".mc__title-2").toggleClass("mc__title--show");
+      $(".mc__action-icon--cart-2").toggleClass("mc__acic-cart--on");
+      $(".mc__action-icon--qv-2").toggleClass("mc__acic-qv--on");
+      $(".mc__action-icon--vwl-2").toggleClass("mc__acic-vwl--on");
+      $(".mc__action-icon--compare-2").toggleClass("mc__acic-compare--on");
+    });
+    $(".main-card-3, .mc__title-3").hover(function () {
+      $(".mc__show-3").toggleClass("mc__show--on");
+      $(".mc__title-3").toggleClass("mc__title--show");
+      $(".mc__action-icon--cart-3").toggleClass("mc__acic-cart--on");
+      $(".mc__action-icon--qv-3").toggleClass("mc__acic-qv--on");
+      $(".mc__action-icon--vwl-3").toggleClass("mc__acic-vwl--on");
+      $(".mc__action-icon--compare-3").toggleClass("mc__acic-compare--on");
     });
   });
 });
