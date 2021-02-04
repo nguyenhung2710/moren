@@ -405,26 +405,36 @@ $main-color: #9771b0;
                                         }
                                     }
                                     &__title-sec4 {
-                                        text-align: start;
-                                        line-height: 35px;
-                                        .h3mr {
-                                            font-size: 20px;
-                                            letter-spacing: -1px;
-                                            font-weight: 600;
-                                            text-transform: uppercase;
-                                            margin-top: 10px;
-                                            margin-bottom: 0px;
-                                            a {
-                                                position: relative;
-                                                &:hover {
-                                                    color: $main-color;
+                                        &-1,
+                                        &-2,
+                                        &-3,
+                                        &-4,
+                                        &-5,
+                                        &-6,
+                                        &-7,
+                                        &-8,
+                                        &-9 {
+                                            text-align: start;
+                                            line-height: 35px;
+                                            .h3mr {
+                                                font-size: 20px;
+                                                letter-spacing: -1px;
+                                                font-weight: 600;
+                                                text-transform: uppercase;
+                                                margin-top: 10px;
+                                                margin-bottom: 0px;
+                                                a {
+                                                    position: relative;
+                                                    &:hover {
+                                                        color: $main-color;
+                                                    }
                                                 }
                                             }
-                                        }
-                                        span {
-                                            font-size: 20px;
-                                            font-weight: 500;
-                                            color: $main-color;
+                                            span {
+                                                font-size: 20px;
+                                                font-weight: 500;
+                                                color: $main-color;
+                                            }
                                         }
                                     }
                                 }
@@ -516,11 +526,9 @@ $main-color: #9771b0;
                         justify-content: center;
                         z-index: 1;
                         opacity: 0;
-                        transition: background-color opacity 0.5s cubic-bezier(0.21, 0.75, 0.27, 0.96);
                         background-color: $main-color;
                         &:hover {
                             background-color: transparent;
-                            transition: background-color opacity 0.5s cubic-bezier(0.21, 0.75, 0.27, 0.96);;
                             opacity: 1 !important;
                         }
                         .h5mr {
@@ -531,9 +539,6 @@ $main-color: #9771b0;
                         }
                     }
                     &__img {
-                        // @extend %showAmt;
-                        //transition: 10s linear;
-                        //animation: showAmt 4s linear;
                         overflow: hidden;
                         img {
                             transform: scale(1);
@@ -542,14 +547,6 @@ $main-color: #9771b0;
                         .lazyloaded {
                             opacity: 0;
                         }
-                        // .check {
-                        //     transform: scale(1.1);
-                        //     transition: transform .2s linear;
-                        // }
-                        // .check-1 {
-                        //     transform: scale(1);
-                        //     transition: transform .2s linear;
-                        // }
                     }
                     &__img-check {
                         animation: showAmt 1.8s linear;
