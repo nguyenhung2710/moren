@@ -281,6 +281,9 @@ button,
   width: 14px;
   height: 14px;
 }
+.site-main .section-one .slick-slide .grid__column img {
+  width: 100%;
+}
 .site-main .section-one .grid__column:first-child {
   display: flex;
   flex-direction: column;
@@ -411,25 +414,172 @@ button,
   display: flex;
   justify-content: center;
 }
-.site-main .section-four .sec-4__1 .grid__column {
+.site-main .section-four .sec-4__1 .grid__column, .site-main .section-four .sec-4__2 .grid__column, .site-main .section-four .sec-4__3 .grid__column {
   margin-right: 40px !important;
   width: 27.1%;
 }
-.site-main .section-four .sec-4__1 .grid__column:nth-child(3) {
+.site-main .section-four .sec-4__1 .grid__column:nth-child(3), .site-main .section-four .sec-4__2 .grid__column:nth-child(3), .site-main .section-four .sec-4__3 .grid__column:nth-child(3) {
   margin-right: 0 !important;
 }
-.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4 {
-  text-align: start;
+.site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-12, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-12, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-12, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-12 {
+  height: 8%;
 }
-.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4 .h3mr {
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4 {
+  text-align: start;
+  line-height: 35px;
+}
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4 .h3mr {
   font-size: 20px;
   letter-spacing: -1px;
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 10px;
+  margin-bottom: 0px;
 }
-.site-main .section-four .sec-4__1 .grid__column .main-card img {
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4 .h3mr a {
+  position: relative;
+}
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4 .h3mr a:hover {
+  color: #9771b0;
+}
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4 span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #9771b0;
+}
+.site-main .section-four .sec-4__1 .grid__column .main-card .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-4 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-5 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-6 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-7 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-8 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-9 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-10 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-11 .mc__show--on,
+.site-main .section-four .sec-4__1 .grid__column .main-card-12 .mc__show--on, .site-main .section-four .sec-4__2 .grid__column .main-card .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-4 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-5 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-6 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-7 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-8 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-9 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-10 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-11 .mc__show--on,
+.site-main .section-four .sec-4__2 .grid__column .main-card-12 .mc__show--on, .site-main .section-four .sec-4__3 .grid__column .main-card .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-4 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-5 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-6 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-7 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-8 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-9 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-10 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-11 .mc__show--on,
+.site-main .section-four .sec-4__3 .grid__column .main-card-12 .mc__show--on {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.144);
+  top: 10px;
+  left: 10px;
+  display: flex;
+  width: 95%;
+  height: 82%;
+  transition: 0.5s;
+}
+.site-main .section-four .sec-4__1 .grid__column .main-card img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-4 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-5 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-6 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-7 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-8 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-9 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-10 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-11 img,
+.site-main .section-four .sec-4__1 .grid__column .main-card-12 img, .site-main .section-four .sec-4__2 .grid__column .main-card img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-4 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-5 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-6 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-7 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-8 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-9 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-10 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-11 img,
+.site-main .section-four .sec-4__2 .grid__column .main-card-12 img, .site-main .section-four .sec-4__3 .grid__column .main-card img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-4 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-5 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-6 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-7 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-8 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-9 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-10 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-11 img,
+.site-main .section-four .sec-4__3 .grid__column .main-card-12 img {
   height: 100%;
+}
+.site-main .section-four .sec-4__4 {
+  border: 1px solid;
+  padding: 10px 25px 10px 25px;
+  background-color: #FFF;
+  cursor: pointer;
+  font-size: 21px;
+  display: block;
+  width: 12%;
+  margin: 25px auto 80px;
+}
+.site-main .section-five .sec-5__1 {
+  margin-bottom: 6px;
+}
+.site-main .section-five .sec-5__1 .grid, .site-main .section-five .sec-5__2 .grid {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+.site-main .section-five .sec-5__1 .grid__column, .site-main .section-five .sec-5__2 .grid__column {
+  padding: 0;
+  width: 24.6%;
+  margin-right: 6px !important;
+}
+.site-main .section-five .sec-5__1 .grid__column:nth-child(4), .site-main .section-five .sec-5__2 .grid__column:nth-child(4) {
+  margin-right: 0 !important;
+}
+.site-main .section-five .sec-5__1 .grid__column a:hover .sec-5__img img, .site-main .section-five .sec-5__2 .grid__column a:hover .sec-5__img img {
+  transform: scale(1.1);
+  transition: transform 0.18s linear;
+}
+.site-main .section-five .sec-5__content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  opacity: 0;
+  transition: background-color opacity 0.5s cubic-bezier(0.21, 0.75, 0.27, 0.96);
+  background-color: #9771b0;
+}
+.site-main .section-five .sec-5__content:hover {
+  background-color: transparent;
+  transition: background-color opacity 0.5s cubic-bezier(0.21, 0.75, 0.27, 0.96);
+  opacity: 1 !important;
+}
+.site-main .section-five .sec-5__content .h5mr {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.site-main .section-five .sec-5__img {
+  overflow: hidden;
+}
+.site-main .section-five .sec-5__img img {
+  transform: scale(1);
+  transition: transform 0.18s linear;
+}
+.site-main .section-five .sec-5__img .lazyloaded {
+  opacity: 0;
+}
+.site-main .section-five .sec-5__img-check {
+  animation: showAmt 1.8s linear;
 }
 
 .mc__action-icon {
@@ -441,7 +591,7 @@ button,
   height: 100%;
   justify-content: center;
 }
-.mc__action-icon--cart, .mc__action-icon--qv, .mc__action-icon--vwl, .mc__action-icon--compare, .mc__action-icon--cart-2, .mc__action-icon--qv-2, .mc__action-icon--vwl-2, .mc__action-icon--compare-2, .mc__action-icon--cart-3, .mc__action-icon--qv-3, .mc__action-icon--vwl-3, .mc__action-icon--compare-3 {
+.mc__action-icon--cart, .mc__action-icon--qv, .mc__action-icon--vwl, .mc__action-icon--compare, .mc__action-icon--cart-2, .mc__action-icon--qv-2, .mc__action-icon--vwl-2, .mc__action-icon--compare-2, .mc__action-icon--cart-3, .mc__action-icon--qv-3, .mc__action-icon--vwl-3, .mc__action-icon--compare-3, .mc__action-icon--cart-4, .mc__action-icon--qv-4, .mc__action-icon--vwl-4, .mc__action-icon--compare-4, .mc__action-icon--cart-5, .mc__action-icon--qv-5, .mc__action-icon--vwl-5, .mc__action-icon--compare-5, .mc__action-icon--cart-6, .mc__action-icon--qv-6, .mc__action-icon--vwl-6, .mc__action-icon--compare-6, .mc__action-icon--cart-7, .mc__action-icon--qv-7, .mc__action-icon--vwl-7, .mc__action-icon--compare-7, .mc__action-icon--cart-8, .mc__action-icon--qv-8, .mc__action-icon--vwl-8, .mc__action-icon--compare-8, .mc__action-icon--cart-9, .mc__action-icon--qv-9, .mc__action-icon--vwl-9, .mc__action-icon--compare-9, .mc__action-icon--cart-10, .mc__action-icon--qv-10, .mc__action-icon--vwl-10, .mc__action-icon--compare-10, .mc__action-icon--cart-11, .mc__action-icon--qv-11, .mc__action-icon--vwl-11, .mc__action-icon--compare-11, .mc__action-icon--cart-12, .mc__action-icon--qv-12, .mc__action-icon--vwl-12, .mc__action-icon--compare-12 {
   opacity: 0;
   transform: translateY(50px);
   width: 12%;
@@ -453,14 +603,14 @@ button,
   margin-top: 35vh;
   position: relative;
 }
-.mc__action-icon--cart:hover, .mc__action-icon--qv:hover, .mc__action-icon--vwl:hover, .mc__action-icon--compare:hover, .mc__action-icon--cart-2:hover, .mc__action-icon--qv-2:hover, .mc__action-icon--vwl-2:hover, .mc__action-icon--compare-2:hover, .mc__action-icon--cart-3:hover, .mc__action-icon--qv-3:hover, .mc__action-icon--vwl-3:hover, .mc__action-icon--compare-3:hover {
+.mc__action-icon--cart:hover, .mc__action-icon--qv:hover, .mc__action-icon--vwl:hover, .mc__action-icon--compare:hover, .mc__action-icon--cart-2:hover, .mc__action-icon--qv-2:hover, .mc__action-icon--vwl-2:hover, .mc__action-icon--compare-2:hover, .mc__action-icon--cart-3:hover, .mc__action-icon--qv-3:hover, .mc__action-icon--vwl-3:hover, .mc__action-icon--compare-3:hover, .mc__action-icon--cart-4:hover, .mc__action-icon--qv-4:hover, .mc__action-icon--vwl-4:hover, .mc__action-icon--compare-4:hover, .mc__action-icon--cart-5:hover, .mc__action-icon--qv-5:hover, .mc__action-icon--vwl-5:hover, .mc__action-icon--compare-5:hover, .mc__action-icon--cart-6:hover, .mc__action-icon--qv-6:hover, .mc__action-icon--vwl-6:hover, .mc__action-icon--compare-6:hover, .mc__action-icon--cart-7:hover, .mc__action-icon--qv-7:hover, .mc__action-icon--vwl-7:hover, .mc__action-icon--compare-7:hover, .mc__action-icon--cart-8:hover, .mc__action-icon--qv-8:hover, .mc__action-icon--vwl-8:hover, .mc__action-icon--compare-8:hover, .mc__action-icon--cart-9:hover, .mc__action-icon--qv-9:hover, .mc__action-icon--vwl-9:hover, .mc__action-icon--compare-9:hover, .mc__action-icon--cart-10:hover, .mc__action-icon--qv-10:hover, .mc__action-icon--vwl-10:hover, .mc__action-icon--compare-10:hover, .mc__action-icon--cart-11:hover, .mc__action-icon--qv-11:hover, .mc__action-icon--vwl-11:hover, .mc__action-icon--compare-11:hover, .mc__action-icon--cart-12:hover, .mc__action-icon--qv-12:hover, .mc__action-icon--vwl-12:hover, .mc__action-icon--compare-12:hover {
   background-color: #9771b0;
   transition: all 0.4s;
 }
-.mc__action-icon--cart:hover img, .mc__action-icon--qv:hover img, .mc__action-icon--vwl:hover img, .mc__action-icon--compare:hover img, .mc__action-icon--cart-2:hover img, .mc__action-icon--qv-2:hover img, .mc__action-icon--vwl-2:hover img, .mc__action-icon--compare-2:hover img, .mc__action-icon--cart-3:hover img, .mc__action-icon--qv-3:hover img, .mc__action-icon--vwl-3:hover img, .mc__action-icon--compare-3:hover img {
+.mc__action-icon--cart:hover img, .mc__action-icon--qv:hover img, .mc__action-icon--vwl:hover img, .mc__action-icon--compare:hover img, .mc__action-icon--cart-2:hover img, .mc__action-icon--qv-2:hover img, .mc__action-icon--vwl-2:hover img, .mc__action-icon--compare-2:hover img, .mc__action-icon--cart-3:hover img, .mc__action-icon--qv-3:hover img, .mc__action-icon--vwl-3:hover img, .mc__action-icon--compare-3:hover img, .mc__action-icon--cart-4:hover img, .mc__action-icon--qv-4:hover img, .mc__action-icon--vwl-4:hover img, .mc__action-icon--compare-4:hover img, .mc__action-icon--cart-5:hover img, .mc__action-icon--qv-5:hover img, .mc__action-icon--vwl-5:hover img, .mc__action-icon--compare-5:hover img, .mc__action-icon--cart-6:hover img, .mc__action-icon--qv-6:hover img, .mc__action-icon--vwl-6:hover img, .mc__action-icon--compare-6:hover img, .mc__action-icon--cart-7:hover img, .mc__action-icon--qv-7:hover img, .mc__action-icon--vwl-7:hover img, .mc__action-icon--compare-7:hover img, .mc__action-icon--cart-8:hover img, .mc__action-icon--qv-8:hover img, .mc__action-icon--vwl-8:hover img, .mc__action-icon--compare-8:hover img, .mc__action-icon--cart-9:hover img, .mc__action-icon--qv-9:hover img, .mc__action-icon--vwl-9:hover img, .mc__action-icon--compare-9:hover img, .mc__action-icon--cart-10:hover img, .mc__action-icon--qv-10:hover img, .mc__action-icon--vwl-10:hover img, .mc__action-icon--compare-10:hover img, .mc__action-icon--cart-11:hover img, .mc__action-icon--qv-11:hover img, .mc__action-icon--vwl-11:hover img, .mc__action-icon--compare-11:hover img, .mc__action-icon--cart-12:hover img, .mc__action-icon--qv-12:hover img, .mc__action-icon--vwl-12:hover img, .mc__action-icon--compare-12:hover img {
   filter: invert(100%) sepia(2%) saturate(217%) hue-rotate(242deg) brightness(119%) contrast(100%);
 }
-.mc__action-icon--cart:hover::before, .mc__action-icon--qv:hover::before, .mc__action-icon--vwl:hover::before, .mc__action-icon--compare:hover::before, .mc__action-icon--cart-2:hover::before, .mc__action-icon--qv-2:hover::before, .mc__action-icon--vwl-2:hover::before, .mc__action-icon--compare-2:hover::before, .mc__action-icon--cart-3:hover::before, .mc__action-icon--qv-3:hover::before, .mc__action-icon--vwl-3:hover::before, .mc__action-icon--compare-3:hover::before {
+.mc__action-icon--cart:hover::before, .mc__action-icon--qv:hover::before, .mc__action-icon--vwl:hover::before, .mc__action-icon--compare:hover::before, .mc__action-icon--cart-2:hover::before, .mc__action-icon--qv-2:hover::before, .mc__action-icon--vwl-2:hover::before, .mc__action-icon--compare-2:hover::before, .mc__action-icon--cart-3:hover::before, .mc__action-icon--qv-3:hover::before, .mc__action-icon--vwl-3:hover::before, .mc__action-icon--compare-3:hover::before, .mc__action-icon--cart-4:hover::before, .mc__action-icon--qv-4:hover::before, .mc__action-icon--vwl-4:hover::before, .mc__action-icon--compare-4:hover::before, .mc__action-icon--cart-5:hover::before, .mc__action-icon--qv-5:hover::before, .mc__action-icon--vwl-5:hover::before, .mc__action-icon--compare-5:hover::before, .mc__action-icon--cart-6:hover::before, .mc__action-icon--qv-6:hover::before, .mc__action-icon--vwl-6:hover::before, .mc__action-icon--compare-6:hover::before, .mc__action-icon--cart-7:hover::before, .mc__action-icon--qv-7:hover::before, .mc__action-icon--vwl-7:hover::before, .mc__action-icon--compare-7:hover::before, .mc__action-icon--cart-8:hover::before, .mc__action-icon--qv-8:hover::before, .mc__action-icon--vwl-8:hover::before, .mc__action-icon--compare-8:hover::before, .mc__action-icon--cart-9:hover::before, .mc__action-icon--qv-9:hover::before, .mc__action-icon--vwl-9:hover::before, .mc__action-icon--compare-9:hover::before, .mc__action-icon--cart-10:hover::before, .mc__action-icon--qv-10:hover::before, .mc__action-icon--vwl-10:hover::before, .mc__action-icon--compare-10:hover::before, .mc__action-icon--cart-11:hover::before, .mc__action-icon--qv-11:hover::before, .mc__action-icon--vwl-11:hover::before, .mc__action-icon--compare-11:hover::before, .mc__action-icon--cart-12:hover::before, .mc__action-icon--qv-12:hover::before, .mc__action-icon--vwl-12:hover::before, .mc__action-icon--compare-12:hover::before {
   content: "Add to cart";
   position: absolute;
   width: 83px;
@@ -475,7 +625,7 @@ button,
   align-items: center;
   justify-content: center;
 }
-.mc__action-icon--cart:hover::after, .mc__action-icon--qv:hover::after, .mc__action-icon--vwl:hover::after, .mc__action-icon--compare:hover::after, .mc__action-icon--cart-2:hover::after, .mc__action-icon--qv-2:hover::after, .mc__action-icon--vwl-2:hover::after, .mc__action-icon--compare-2:hover::after, .mc__action-icon--cart-3:hover::after, .mc__action-icon--qv-3:hover::after, .mc__action-icon--vwl-3:hover::after, .mc__action-icon--compare-3:hover::after {
+.mc__action-icon--cart:hover::after, .mc__action-icon--qv:hover::after, .mc__action-icon--vwl:hover::after, .mc__action-icon--compare:hover::after, .mc__action-icon--cart-2:hover::after, .mc__action-icon--qv-2:hover::after, .mc__action-icon--vwl-2:hover::after, .mc__action-icon--compare-2:hover::after, .mc__action-icon--cart-3:hover::after, .mc__action-icon--qv-3:hover::after, .mc__action-icon--vwl-3:hover::after, .mc__action-icon--compare-3:hover::after, .mc__action-icon--cart-4:hover::after, .mc__action-icon--qv-4:hover::after, .mc__action-icon--vwl-4:hover::after, .mc__action-icon--compare-4:hover::after, .mc__action-icon--cart-5:hover::after, .mc__action-icon--qv-5:hover::after, .mc__action-icon--vwl-5:hover::after, .mc__action-icon--compare-5:hover::after, .mc__action-icon--cart-6:hover::after, .mc__action-icon--qv-6:hover::after, .mc__action-icon--vwl-6:hover::after, .mc__action-icon--compare-6:hover::after, .mc__action-icon--cart-7:hover::after, .mc__action-icon--qv-7:hover::after, .mc__action-icon--vwl-7:hover::after, .mc__action-icon--compare-7:hover::after, .mc__action-icon--cart-8:hover::after, .mc__action-icon--qv-8:hover::after, .mc__action-icon--vwl-8:hover::after, .mc__action-icon--compare-8:hover::after, .mc__action-icon--cart-9:hover::after, .mc__action-icon--qv-9:hover::after, .mc__action-icon--vwl-9:hover::after, .mc__action-icon--compare-9:hover::after, .mc__action-icon--cart-10:hover::after, .mc__action-icon--qv-10:hover::after, .mc__action-icon--vwl-10:hover::after, .mc__action-icon--compare-10:hover::after, .mc__action-icon--cart-11:hover::after, .mc__action-icon--qv-11:hover::after, .mc__action-icon--vwl-11:hover::after, .mc__action-icon--compare-11:hover::after, .mc__action-icon--cart-12:hover::after, .mc__action-icon--qv-12:hover::after, .mc__action-icon--vwl-12:hover::after, .mc__action-icon--compare-12:hover::after {
   content: "";
   position: absolute;
   top: -11px;
@@ -569,12 +719,12 @@ button,
     transform: translateY(0);
   }
 }
-.site-main .section-one .grid__column:first-child button:hover, .site-main .section-three button:hover {
+.site-main .section-one .grid__column:first-child button:hover, .site-main .section-three button:hover, .site-main .section-four .sec-4__4:hover {
   color: #fff;
   background-color: #9771b0;
   transition: 0.4s;
 }
 
-.site-header #myNav, .site-header .myNavOn, .mc__action-icon--cart, .mc__action-icon--qv, .mc__action-icon--vwl, .mc__action-icon--compare, .mc__action-icon--cart-2, .mc__action-icon--qv-2, .mc__action-icon--vwl-2, .mc__action-icon--compare-2, .mc__action-icon--cart-3, .mc__action-icon--qv-3, .mc__action-icon--vwl-3, .mc__action-icon--compare-3, .mc__action-icon--cart:hover::before, .mc__action-icon--qv:hover::before, .mc__action-icon--vwl:hover::before, .mc__action-icon--compare:hover::before, .mc__action-icon--cart-2:hover::before, .mc__action-icon--qv-2:hover::before, .mc__action-icon--vwl-2:hover::before, .mc__action-icon--compare-2:hover::before, .mc__action-icon--cart-3:hover::before, .mc__action-icon--qv-3:hover::before, .mc__action-icon--vwl-3:hover::before, .mc__action-icon--compare-3:hover::before, .mc__title--show, .mc__title-2--show, .mc__title-3--show {
+.site-header #myNav, .site-header .myNavOn, .mc__action-icon--cart, .mc__action-icon--qv, .mc__action-icon--vwl, .mc__action-icon--compare, .mc__action-icon--cart-2, .mc__action-icon--qv-2, .mc__action-icon--vwl-2, .mc__action-icon--compare-2, .mc__action-icon--cart-3, .mc__action-icon--qv-3, .mc__action-icon--vwl-3, .mc__action-icon--compare-3, .mc__action-icon--cart-4, .mc__action-icon--qv-4, .mc__action-icon--vwl-4, .mc__action-icon--compare-4, .mc__action-icon--cart-5, .mc__action-icon--qv-5, .mc__action-icon--vwl-5, .mc__action-icon--compare-5, .mc__action-icon--cart-6, .mc__action-icon--qv-6, .mc__action-icon--vwl-6, .mc__action-icon--compare-6, .mc__action-icon--cart-7, .mc__action-icon--qv-7, .mc__action-icon--vwl-7, .mc__action-icon--compare-7, .mc__action-icon--cart-8, .mc__action-icon--qv-8, .mc__action-icon--vwl-8, .mc__action-icon--compare-8, .mc__action-icon--cart-9, .mc__action-icon--qv-9, .mc__action-icon--vwl-9, .mc__action-icon--compare-9, .mc__action-icon--cart-10, .mc__action-icon--qv-10, .mc__action-icon--vwl-10, .mc__action-icon--compare-10, .mc__action-icon--cart-11, .mc__action-icon--qv-11, .mc__action-icon--vwl-11, .mc__action-icon--compare-11, .mc__action-icon--cart-12, .mc__action-icon--qv-12, .mc__action-icon--vwl-12, .mc__action-icon--compare-12, .mc__action-icon--cart:hover::before, .mc__action-icon--qv:hover::before, .mc__action-icon--vwl:hover::before, .mc__action-icon--compare:hover::before, .mc__action-icon--cart-2:hover::before, .mc__action-icon--qv-2:hover::before, .mc__action-icon--vwl-2:hover::before, .mc__action-icon--compare-2:hover::before, .mc__action-icon--cart-3:hover::before, .mc__action-icon--qv-3:hover::before, .mc__action-icon--vwl-3:hover::before, .mc__action-icon--compare-3:hover::before, .mc__action-icon--cart-4:hover::before, .mc__action-icon--qv-4:hover::before, .mc__action-icon--vwl-4:hover::before, .mc__action-icon--compare-4:hover::before, .mc__action-icon--cart-5:hover::before, .mc__action-icon--qv-5:hover::before, .mc__action-icon--vwl-5:hover::before, .mc__action-icon--compare-5:hover::before, .mc__action-icon--cart-6:hover::before, .mc__action-icon--qv-6:hover::before, .mc__action-icon--vwl-6:hover::before, .mc__action-icon--compare-6:hover::before, .mc__action-icon--cart-7:hover::before, .mc__action-icon--qv-7:hover::before, .mc__action-icon--vwl-7:hover::before, .mc__action-icon--compare-7:hover::before, .mc__action-icon--cart-8:hover::before, .mc__action-icon--qv-8:hover::before, .mc__action-icon--vwl-8:hover::before, .mc__action-icon--compare-8:hover::before, .mc__action-icon--cart-9:hover::before, .mc__action-icon--qv-9:hover::before, .mc__action-icon--vwl-9:hover::before, .mc__action-icon--compare-9:hover::before, .mc__action-icon--cart-10:hover::before, .mc__action-icon--qv-10:hover::before, .mc__action-icon--vwl-10:hover::before, .mc__action-icon--compare-10:hover::before, .mc__action-icon--cart-11:hover::before, .mc__action-icon--qv-11:hover::before, .mc__action-icon--vwl-11:hover::before, .mc__action-icon--compare-11:hover::before, .mc__action-icon--cart-12:hover::before, .mc__action-icon--qv-12:hover::before, .mc__action-icon--vwl-12:hover::before, .mc__action-icon--compare-12:hover::before, .mc__title--show, .mc__title-2--show, .mc__title-3--show {
   animation: showAmt 0.3s linear;
 }

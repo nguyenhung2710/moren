@@ -55,5 +55,77 @@ jQuery(document).ready(function ($) {
             $(".mc__action-icon--vwl-3").toggleClass("mc__acic-vwl--on");
             $(".mc__action-icon--compare-3").toggleClass("mc__acic-compare--on");
         });
+        $(".main-card-4, .mc__title-sec4").hover(function () {
+            $(".mc__show-4").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-4").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-4").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-4").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-4").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-5, .mc__title-sec4").hover(function () {
+            $(".mc__show-5").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-5").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-5").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-5").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-5").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-6, .mc__title-sec4").hover(function () {
+            $(".mc__show-6").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-6").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-6").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-6").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-6").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-7, .mc__title-sec4").hover(function () {
+            $(".mc__show-7").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-7").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-7").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-7").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-7").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-8, .mc__title-sec4").hover(function () {
+            $(".mc__show-8").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-8").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-8").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-8").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-8").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-9, .mc__title-sec4").hover(function () {
+            $(".mc__show-9").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-9").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-9").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-9").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-9").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-10, .mc__title-sec4").hover(function () {
+            $(".mc__show-10").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-10").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-10").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-10").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-10").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-11, .mc__title-sec4").hover(function () {
+            $(".mc__show-11").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-11").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-11").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-11").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-11").toggleClass("mc__acic-compare--on");
+        });
+        $(".main-card-12, .mc__title-sec4").hover(function () {
+            $(".mc__show-12").toggleClass("mc__show--on");
+            $(".mc__action-icon--cart-12").toggleClass("mc__acic-cart--on");
+            $(".mc__action-icon--qv-12").toggleClass("mc__acic-qv--on");
+            $(".mc__action-icon--vwl-12").toggleClass("mc__acic-vwl--on");
+            $(".mc__action-icon--compare-12").toggleClass("mc__acic-compare--on");
+        });
+    });
+
+    //IMG Sec-5
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 3300) {
+            $(".sec-5__img").addClass("sec-5__img-check");
+            $(".lazyloaded").css("opacity", "1");
+            $(".sec-5__content").css("opacity", "0.5");
+        }
     });
 });
