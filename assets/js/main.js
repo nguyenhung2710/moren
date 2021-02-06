@@ -1,4 +1,5 @@
 jQuery(document).ready(function ($) {
+
     //Navbar
     $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
@@ -20,12 +21,19 @@ jQuery(document).ready(function ($) {
 
     //Carousel
     $(function () {
-        $('.section-one').slick({
+        $('.section-one, .sec-6').slick({
             dots: true,
             infinite: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
+        });
+        $('.section-seven').slick({
+            dots: false,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
         });
     });
 
