@@ -8,3 +8,63 @@
     right: 35px;
   }
 }
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .site-header {
+    background-color: #fff;
+  }
+  .site-main {
+    margin-top: 120px;
+  }
+  .site-main .section-one .grid__column:first-child {
+    padding-left: 35px;
+    padding-right: 0;
+    margin-bottom: 80px;
+  }
+  .site-main .section-one .grid__column:first-child .h1mr {
+    font-size: 21px;
+  }
+  .site-main .section-one .grid__column:first-child strong {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .site-main .section-one .grid__column:first-child {
+    padding-left: 60px;
+  }
+  .site-main .section-one .grid__column:first-child .h1mr {
+    font-size: 21px;
+  }
+  .site-main .section-two .h2mr {
+    font-size: 32px;
+    top: 150px;
+    left: -95px;
+  }
+  .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 .h3mr,
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 .h3mr,
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 .h3mr,
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 span {
+    font-size: 16px;
+  }
+  .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 .h3mr,
+.site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 .h3mr,
+.site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 .h3mr,
+.site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 span {
+    font-size: 16px;
+  }
+  .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 .h3mr,
+.site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 .h3mr,
+.site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 .h3mr,
+.site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 span {
+    font-size: 16px;
+  }
+  .site-main .section-four .sec-4__4 {
+    width: 15%;
+  }
+  .site-main .section-five .sec-5__1 .grid__column, .site-main .section-five .sec-5__2 .grid__column {
+    width: 24.5%;
+  }
+  .site-footer .grid__column:nth-child(1) {
+    padding-right: 14px;
+  }
+}

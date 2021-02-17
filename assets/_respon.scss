@@ -18,12 +18,125 @@
 
 //Tablet 
 @media screen and (min-width: 740px) and (max-width: 1023px) {
-
+    .site {
+        &-header {
+            background-color: #fff;
+        }
+        &-main {
+            margin-top: 120px;
+            .section-one {
+                .grid__column {
+                    &:first-child {
+                        padding-left: 35px;
+                        padding-right: 0;
+                        margin-bottom: 80px;
+                        .h1mr {
+                            font-size: 21px;
+                        }
+                        strong {
+                            font-size: 30px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 //Ipad pro + laptop 
 @media screen and (min-width: 1024px) and (max-width: 1024px) {
-
+    .site {
+        &-main {
+            .section {
+                &-one {
+                    .grid__column {
+                        &:first-child {
+                            padding-left: 60px;
+                            .h1mr {
+                                font-size: 21px;
+                            }
+                        }
+                        
+                    }
+                    
+                }
+                &-two {
+                    .h2mr {
+                        font-size: 32px;
+                        top: 150px;
+                        left: -95px;
+                    }
+                }
+                &-four {
+                    .sec-4 {
+                        &__1 {
+                            .grid__column {
+                                .mc__title-sec4 {
+                                    &-1,
+                                    &-2,
+                                    &-3 {
+                                        .h3mr,
+                                        span {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &__2 {
+                            .grid__column {
+                                .mc__title-sec4 {
+                                    &-4,
+                                    &-5,
+                                    &-6 {
+                                        .h3mr,
+                                        span {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &__3 {
+                            .grid__column {
+                                .mc__title-sec4 {
+                                    &-7,
+                                    &-8,
+                                    &-9 {
+                                        .h3mr,
+                                        span {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &__4 {
+                            width: 15%;
+                        }
+                    }
+                }
+                &-five {
+                    .sec-5 {
+                        &__1,
+                        &__2 {
+                            .grid__column {
+                                width: 24.5%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-footer {
+            .grid__column {
+                &:nth-child(1) {
+                    padding-right: 14px;
+                }
+            }
+        }
+    }
 }
 
 // 2K

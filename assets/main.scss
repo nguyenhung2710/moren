@@ -200,6 +200,7 @@ a {
                         .grid__column {
                             img {
                                 width: 100%;
+                                height: 100%;
                             }
                         }
                     }
@@ -216,7 +217,7 @@ a {
                             padding-right: 62px;
                             font-size: 20px;
                             letter-spacing: -1px;
-                            .h1mr {
+                            .h1morem {
                                 font-weight: 600;
                                 text-transform: uppercase;
                                 transform: translateY(22px);
@@ -256,43 +257,24 @@ a {
                 }
             }
             &-two {
-                .h2mr {
-                    color: #C3C3C3;
-                    font-size: 44px;
-                    transform: translate(-203px, 227px) rotate(-90deg);
-                    font-weight: 600;
+                position: relative;
+                margin: 70px 0;
+                .sec-2__title {
+                    left: 65px;
+                    transform: translate(-100%, 50%) rotate(-90deg);
+                    transform-origin: right;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    line-height: 1em;
                     letter-spacing: 4px;
-                    width: 40%;
+                    color: #C3C3C3;
+                    font-size: 42px;
+                    position: absolute;
                 }
                 .grid {
                     padding-left: 120px;
                     &__column {
-                        width: 32.8%;
-                        .main {
-                            &-card,
-                            &-card-2,
-                            &-card-3 {
-                                position: relative;
-                                transition: .5s;
-                                .mc__show--on {
-                                    position: absolute;
-                                    background-color: rgba(0, 0, 0, 0.144);
-                                    top: 0;
-                                    left: 0;
-                                    display: flex;
-                                    width: 100%;
-                                    height: 100%;
-                                }
-                            }
-                        }
-                        a {
-                            display: block;
-                            margin-right: 30px;
-                            img {
-                                height: 100%;
-                                cursor: pointer;
-                            }
-                        }
+                        width: 30.4%;
                     }
                 }
             }
@@ -315,11 +297,11 @@ a {
                     background-color: #1C152F;
                     opacity: .7;
                 }
-                .h2mr {
+                .h2morem {
                     font-weight: 600;
                     font-size: 50px;
                 }
-                .h2mr,
+                .h2morem,
                 p {
                     color: #fff;
                     position: relative;
@@ -340,7 +322,7 @@ a {
             }
             &-four {
                 text-align: center;
-                .h3mr {
+                .h3morem {
                     font-size: 38px;
                     font-weight: 600;
                     margin-top: 60px;
@@ -364,111 +346,6 @@ a {
                                 width: 27.1%;
                                 &:nth-child(3) {
                                     margin-right: 0 !important;
-                                }
-                                .mc {
-                                    &__action {
-                                        &-icon {
-                                            &--cart-4,
-                                            &--qv-4,
-                                            &--vwl-4,
-                                            &--compare-4,
-                                            &--cart-5,
-                                            &--qv-5,
-                                            &--vwl-5,
-                                            &--compare-5,
-                                            &--cart-6,
-                                            &--qv-6,
-                                            &--vwl-6,
-                                            &--compare-6,
-                                            &--cart-7,
-                                            &--qv-7,
-                                            &--vwl-7,
-                                            &--compare-7,
-                                            &--cart-8,
-                                            &--qv-8,
-                                            &--vwl-8,
-                                            &--compare-8,
-                                            &--cart-9,
-                                            &--qv-9,
-                                            &--vwl-9,
-                                            &--compare-9,
-                                            &--cart-10,
-                                            &--qv-10,
-                                            &--vwl-10,
-                                            &--compare-10,
-                                            &--cart-11,
-                                            &--qv-11,
-                                            &--vwl-11,
-                                            &--compare-11,
-                                            &--cart-12,
-                                            &--qv-12,
-                                            &--vwl-12,
-                                            &--compare-12 {
-                                                height: 8%;
-                                            }
-                                        }
-                                    }
-                                    &__title-sec4 {
-                                        &-1,
-                                        &-2,
-                                        &-3,
-                                        &-4,
-                                        &-5,
-                                        &-6,
-                                        &-7,
-                                        &-8,
-                                        &-9 {
-                                            text-align: start;
-                                            line-height: 35px;
-                                            .h3mr {
-                                                font-size: 20px;
-                                                letter-spacing: -1px;
-                                                font-weight: 600;
-                                                text-transform: uppercase;
-                                                margin-top: 10px;
-                                                margin-bottom: 0px;
-                                                a {
-                                                    position: relative;
-                                                    &:hover {
-                                                        color: $main-color;
-                                                    }
-                                                }
-                                            }
-                                            span {
-                                                font-size: 20px;
-                                                font-weight: 500;
-                                                color: $main-color;
-                                            }
-                                        }
-                                    }
-                                }
-                                .main-card,
-                                .main-card-4,
-                                .main-card-5,
-                                .main-card-6,
-                                .main-card-7,
-                                .main-card-8,
-                                .main-card-9,
-                                .main-card-10,
-                                .main-card-11,
-                                .main-card-12 {
-                                    .mc {
-                                        &__show {
-                                            &--on {
-                                                position: absolute;
-                                                background-color: rgba(0, 0, 0, 0.144);
-                                                top: 10px;
-                                                left: 10px;
-                                                display: flex;
-                                                width: 95%;
-                                                height: 82%;
-                                                transition: .5s;
-                                            }
-                                        }
-                                    }
-                                    img {
-                                        height: 100%;
-                                    }
                                 }
                             }
                         }
@@ -535,7 +412,7 @@ a {
                             background-color: transparent;
                             opacity: 1 !important;
                         }
-                        .h5mr {
+                        .h5morem {
                             color: #fff;
                             font-size: 30px;
                             font-weight: 700;
@@ -547,6 +424,7 @@ a {
                         img {
                             transform: scale(1);
                             transition: transform .18s linear;
+                            width: 100%;
                         }
                         .lazyloaded {
                             opacity: 0;
@@ -558,7 +436,7 @@ a {
                 }
             }
             &-six {
-                .h2mr {
+                .h2morem {
                     text-align: center;
                     font-size: 38px;
                     font-weight: 600;
@@ -597,7 +475,7 @@ a {
                             }
                         }
                     }
-                    &__ct {
+                    &__main {
                         &-logo {
                             display: flex;
                             align-items: center;
@@ -616,7 +494,7 @@ a {
                         &-title {
                             a {
                                 font-weight: 600;
-                                font-size: 18px;
+                                font-size: 20px;
                                 margin: 12px 0;
                                 display: block;
                                 text-transform: uppercase;
@@ -704,7 +582,7 @@ a {
                             width: 115px;
                         }
                     }
-                    &__content {
+                    &__main {
                         width: 86%;
                         height: 10rem;
                         display: flex;
@@ -716,7 +594,7 @@ a {
                             letter-spacing: -0.4px;
                         }
                     }
-                    &__ct-star {
+                    &__main-star {
                         display: flex;
                         img {
                             width: 25px;
@@ -774,7 +652,7 @@ a {
                     background-color: #1C152F;
                     opacity: 0.7;
                 }
-                .h3mr {
+                .h3morem {
                     font-weight: 600;
                     font-size: 40px;
                     letter-spacing: -1px;
@@ -820,6 +698,16 @@ a {
                 justify-content: space-around;
                 margin-top: -110px;
                 margin-bottom: 85px;
+                padding-left: 10px;
+                padding-right: 10px;
+                .sec-7 {
+                    &__1,
+                    &__2,
+                    &__3,
+                    &__4 {
+                        margin-right: 20px;
+                    }
+                }
             }
         }
     }
@@ -954,261 +842,235 @@ a {
     }
 }
 
-.mc {
-    &__action {
-        &-icon {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            display: flex;
-            height: 100%;
-            justify-content: center;
-            &--cart,
-            &--qv,
-            &--vwl,
-            &--compare,
-            &--cart-2,
-            &--qv-2,
-            &--vwl-2,
-            &--compare-2,
-            &--cart-3,
-            &--qv-3,
-            &--vwl-3,
-            &--compare-3,
-            &--cart-4,
-            &--qv-4,
-            &--vwl-4,
-            &--compare-4,
-            &--cart-5,
-            &--qv-5,
-            &--vwl-5,
-            &--compare-5,
-            &--cart-6,
-            &--qv-6,
-            &--vwl-6,
-            &--compare-6,
-            &--cart-7,
-            &--qv-7,
-            &--vwl-7,
-            &--compare-7,
-            &--cart-8,
-            &--qv-8,
-            &--vwl-8,
-            &--compare-8,
-            &--cart-9,
-            &--qv-9,
-            &--vwl-9,
-            &--compare-9,
-            &--cart-10,
-            &--qv-10,
-            &--vwl-10,
-            &--compare-10,
-            &--cart-11,
-            &--qv-11,
-            &--vwl-11,
-            &--compare-11,
-            &--cart-12,
-            &--qv-12,
-            &--vwl-12,
-            &--compare-12 {
-                opacity: 0;
-                transform: translateY(50px);
-                width: 12%;
-                display: flex;
-                background-color: #fff;
-                height: 9%;
-                margin-right: 17px;
-                padding: 0 14px;
-                margin-top: 35vh;
+.product {
+    &_item {
+        &:nth-child(1),
+        &:nth-child(2) {
+            margin-right: 30px !important;
+        }
+        .product_item {
+            &__inner {
+                &:hover {
+                    .item__overlay {
+                        opacity: .2;
+                    }
+                    .button {
+                        opacity: 1;
+                        transform: translate(0,10px);
+                    }
+                    
+                }
+            }
+            &__thumbnail {
                 position: relative;
-                @extend %showAmt;
+                z-index: 2;
+                overflow: hidden;
                 &:hover {
-                    background-color: $main-color;
-                    transition: all .4s;
-                    img {
-                        filter: invert(100%) sepia(2%) saturate(217%) hue-rotate(242deg) brightness(119%) contrast(100%);
+                    .item__overlay {
+                        opacity: .2;
+                    }
+                    .button {
+                        opacity: 1;
+                        transform: translate(0,10px);
+                    }
+                    
+                }
+                &-holder {
+                    a {
+                        display: block;
+                        &:hover {
+                            .item__overlay {
+                                opacity: .2;
+                            }
+                        }
+                        img {
+                            width: 100%;
+                            display: block;
+                        }
                     }
                 }
             }
-            &--cart,
-            &--qv,
-            &--vwl,
-            &--compare,
-            &--cart-2,
-            &--qv-2,
-            &--vwl-2,
-            &--compare-2,
-            &--cart-3,
-            &--qv-3,
-            &--vwl-3,
-            &--compare-3,
-            &--cart-4,
-            &--qv-4,
-            &--vwl-4,
-            &--compare-4,
-            &--cart-5,
-            &--qv-5,
-            &--vwl-5,
-            &--compare-5,
-            &--cart-6,
-            &--qv-6,
-            &--vwl-6,
-            &--compare-6,
-            &--cart-7,
-            &--qv-7,
-            &--vwl-7,
-            &--compare-7,
-            &--cart-8,
-            &--qv-8,
-            &--vwl-8,
-            &--compare-8,
-            &--cart-9,
-            &--qv-9,
-            &--vwl-9,
-            &--compare-9,
-            &--cart-10,
-            &--qv-10,
-            &--vwl-10,
-            &--compare-10,
-            &--cart-11,
-            &--qv-11,
-            &--vwl-11,
-            &--compare-11,
-            &--cart-12,
-            &--qv-12,
-            &--vwl-12,
-            &--compare-12 {
-                //margin-left: 20px;
-                &:hover {
-                    &::before {
-                        content: "Add to cart";
-                        position: absolute;
-                        width: 83px;
-                        height: 27px;
-                        border-radius: 2px;
-                        top: -38px;
-                        left: -16px;
-                        background-color: #2d2d2d;
-                        color: #fff;
-                        font-size: 12px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        @extend %showAmt;
-                    }
-                    &::after {
-                        content: "";
-                        position: absolute;
-                        top: -11px;
-                        left: 18px;
-                        border-width: 5px 5px;
-                        border-style: solid;
-                        border-color: #2d2d2d transparent transparent transparent;
+            &__info {
+                padding-left: 1em;
+                padding-right: 1em;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                left: 0;
+                background-color: #fff;
+                transition: all 0.3s;
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(100%);
+                z-index: 2;
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                .price {
+                    font-size: 18px;
+                    color: $main-color;
+                }
+                &-sec-4--show {
+                    text-align: left;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: $main-color;
+                    line-height: 14px;
+                    margin-bottom: 25px;
+                    .price {
+                        font-weight: 400;
                     }
                 }
             }
-            &--qv,
-            &--qv-2,
-            &--qv-3 {
+            &__title {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                margin: 10px 0;
+                letter-spacing: -0.8px;
+                text-transform: uppercase;
+                width: fit-content;
                 &:hover {
-                    &::before {
-                        content: "Quick View";
+                    a {
+                        color: $main-color;
                     }
                 }
             }
-            &--vwl,
-            &--vwl-2,
-            &--vwl-3 {
-                &:hover {
-                    &::before {
-                        content: "Add to wishlist";
-                        width: 100px;
-                        left: -28px;
-                    }
-                }
-            }
-            &--compare,
-            &--compare-2,
-            &--compare-3 {
-                &:hover {
-                    &::before {
-                        content: "Add to compare";
-                        width: 105px;
-                        left: -30px;
-                    }
-                }
-            }
-            .mc__acic{
-                &-cart--on,
-                &-qv--on,
-                &-vwl--on,
-                &-compare--on {
-                    //opacity: 1 !important;
+        }
+        &__inner {
+            position: relative;
+            overflow: hidden;
+            &:hover {
+                .product_item__info {
                     opacity: 1;
-                    //transform: translateY(-20px) !important;
-                    transform: translateY(-20px);
-                }
-                &-cart--on {
-                    transition: transform .3s ease-in-out, opacity .7s ease-in-out;
-                }
-                &-qv--on {
-                    transition: transform .4s ease-in-out, opacity .8s ease-in-out;
-                }
-                &-vwl--on {
-                    transition: transform .5s ease-in-out, opacity .9s ease-in-out;
-                }
-                &-compare--on {
-                    transition: transform .6s ease-in-out, opacity 1s ease-in-out;
+                    visibility: unset;
+                    transform: translateY(0);
                 }
             }
         }
     }
-    &__title,
-    &__title-2,
-    &__title-3 {
-        justify-content: center;
-        align-items: center;
-        background-color: #fff;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-right: 30px;
+}
+
+//Overlay
+.item__overlay {
+    background-color: #333;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 250ms ease-out;
+}
+
+//Button
+.wrap-addto {
+    position: absolute;
+    bottom: 50%;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    .button {
+        display: inline-block;
+        vertical-align: middle;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        line-height: 44px;
+        font-size: 16px;
+        position: relative;
         opacity: 0;
-        pointer-events: none;
-        &--show {
-            transition: transform .3s ease-in-out;
-            transform: translateY(-100%);
-            //pointer-events: all !important;
-            pointer-events: all;
-            display: flex;
-            @extend %showAmt;
-            //opacity: 1 !important;
-            opacity: 1;
-        }
-        a {
-            margin-left: 0;
-            &:first-child {
-                //display: none !important;
-                display: none;
+        background-color: #fff;
+        color: #333;
+        margin: 5px;
+        transform: translate(0,40px);
+        transition-delay: 100ms;
+        &:hover {
+            background-color: $main-color;
+            img {
+                filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(116deg) brightness(98%) contrast(106%);
+            }
+            .labtn-text {
+                opacity: 1;
+                transform: translate3d(-50%, -50%, 0);
+                transition: opacity .3s,transform .3s;
             }
         }
-        .h3mr {
-            font-size: 1rem;
-            text-transform: uppercase;
-            margin-bottom: 0;
-            font-weight: 800;
-            a {
-                &:hover {
-                    color: $main-color;
-                    text-decoration: none;
-                    transition: all .3s;
-                }
+        &:nth-child(2) {
+            transition-delay: 150ms;
+        }
+        &:nth-child(3),
+        &:nth-child(4) {
+            transition-delay: 200ms;
+        }
+        .labtn-text {
+            font-weight: 400;
+            position: absolute;
+            padding: 5px 12px;
+            z-index: 3;
+            opacity: 0;
+            white-space: pre;
+            font-size: 12px;
+            bottom: 100%;
+            line-height: 14px;
+            left: 50%;
+            background-color: #333;
+            color: #fff;
+            text-transform: none;
+            border-radius: 2px;
+            transform: translate3d(-50%, 0, 0);
+            transition: opacity .2s, margin .3s, transform .3s;
+            pointer-events: none;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -5px;
+                left: 50%;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-top: 5px solid #333;
+                opacity: .9;
+                transform: translateX(-50%);
             }
         }
-        span {
-            color: $main-color;
-            font-weight: 500;
-            font-size: 1.1rem;
+    }
+}
+
+
+//Notification
+.bottom-notification {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 1em 1.41575em;
+    background-color: #3d9cd2;
+    color: #fff;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    .btn {
+        &-icon {
+            img {
+                filter: invert(98%) sepia(15%) saturate(239%) hue-rotate(22deg) brightness(113%) contrast(100%);
+                margin-right: 10px;
+            }
+            span {
+                font-size: 15px;
+            }
+        }
+        &-off {
+            border: none;
+            background: rgba(0,0,0,.1);
+            cursor: pointer;
+            margin: -1em -1.41575em -1em 0;
+            padding: 1em 1.41575em;
+            color: #fff;
+            &:hover {
+                color: #9771b0;
+            }
         }
     }
 }
@@ -1232,6 +1094,27 @@ a {
     }
 }
 
+@keyframes mcActionOn {
+    from {
+        transform: translateY(50px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes mcActionOff {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+
+//Responsive
+@import '_respon';
+
 //Extend
 %hover {
     color: #fff;
@@ -1239,10 +1122,8 @@ a {
     transition: .4s;
 }
 
+//Animation
 %showAmt {
     animation: showAmt .3s linear;
 }
 
-
-//Responsive
-@import '_respon';

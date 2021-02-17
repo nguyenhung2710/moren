@@ -277,6 +277,7 @@ a:hover {
 }
 .site-main .section-one .slick-slide .grid__column img {
   width: 100%;
+  height: 100%;
 }
 .site-main .section-one .grid__column:first-child {
   display: flex;
@@ -289,7 +290,7 @@ a:hover {
   font-size: 20px;
   letter-spacing: -1px;
 }
-.site-main .section-one .grid__column:first-child .h1mr {
+.site-main .section-one .grid__column:first-child .h1morem {
   font-weight: 600;
   text-transform: uppercase;
   transform: translateY(22px);
@@ -321,40 +322,27 @@ a:hover {
   padding: 0;
   width: 62.8%;
 }
-.site-main .section-two .h2mr {
-  color: #C3C3C3;
-  font-size: 44px;
-  transform: translate(-203px, 227px) rotate(-90deg);
-  font-weight: 600;
+.site-main .section-two {
+  position: relative;
+  margin: 70px 0;
+}
+.site-main .section-two .sec-2__title {
+  left: 65px;
+  transform: translate(-100%, 50%) rotate(-90deg);
+  transform-origin: right;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
   letter-spacing: 4px;
-  width: 40%;
+  color: #C3C3C3;
+  font-size: 42px;
+  position: absolute;
 }
 .site-main .section-two .grid {
   padding-left: 120px;
 }
 .site-main .section-two .grid__column {
-  width: 32.8%;
-}
-.site-main .section-two .grid__column .main-card, .site-main .section-two .grid__column .main-card-2, .site-main .section-two .grid__column .main-card-3 {
-  position: relative;
-  transition: 0.5s;
-}
-.site-main .section-two .grid__column .main-card .mc__show--on, .site-main .section-two .grid__column .main-card-2 .mc__show--on, .site-main .section-two .grid__column .main-card-3 .mc__show--on {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.144);
-  top: 0;
-  left: 0;
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-.site-main .section-two .grid__column a {
-  display: block;
-  margin-right: 30px;
-}
-.site-main .section-two .grid__column a img {
-  height: 100%;
-  cursor: pointer;
+  width: 30.4%;
 }
 .site-main .section-three {
   background-image: url(https://morencdn.b-cdn.net/wp-content/uploads/2020/12/m2-bg-2.jpg);
@@ -376,11 +364,11 @@ a:hover {
   background-color: #1C152F;
   opacity: 0.7;
 }
-.site-main .section-three .h2mr {
+.site-main .section-three .h2morem {
   font-weight: 600;
   font-size: 50px;
 }
-.site-main .section-three .h2mr,
+.site-main .section-three .h2morem,
 .site-main .section-three p {
   color: #fff;
   position: relative;
@@ -398,7 +386,7 @@ a:hover {
 .site-main .section-four {
   text-align: center;
 }
-.site-main .section-four .h3mr {
+.site-main .section-four .h3morem {
   font-size: 38px;
   font-weight: 600;
   margin-top: 60px;
@@ -414,99 +402,6 @@ a:hover {
 }
 .site-main .section-four .sec-4__1 .grid__column:nth-child(3), .site-main .section-four .sec-4__2 .grid__column:nth-child(3), .site-main .section-four .sec-4__3 .grid__column:nth-child(3) {
   margin-right: 0 !important;
-}
-.site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-4, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-5, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-6, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-7, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-8, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-9, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-10, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-11, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--cart-12, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--qv-12, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--vwl-12, .site-main .section-four .sec-4__1 .grid__column .mc__action-icon--compare-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-4, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-5, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-6, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-7, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-8, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-9, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-10, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-11, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--cart-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--qv-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--vwl-12, .site-main .section-four .sec-4__2 .grid__column .mc__action-icon--compare-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-4, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-5, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-6, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-7, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-8, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-9, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-10, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-11, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--cart-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--qv-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--vwl-12, .site-main .section-four .sec-4__3 .grid__column .mc__action-icon--compare-12 {
-  height: 8%;
-}
-.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-4, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-5, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-6, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-7, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-8, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-9, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-1, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-2, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-3, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-7, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-8, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-9, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-1, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-2, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-3, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-4, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-5, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-6, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 {
-  text-align: start;
-  line-height: 35px;
-}
-.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-4 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-5 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-6 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-7 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-8 .h3mr, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-9 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-1 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-2 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-3 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-7 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-8 .h3mr, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-9 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-1 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-2 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-3 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-4 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-5 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-6 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 .h3mr, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 .h3mr {
-  font-size: 20px;
-  letter-spacing: -1px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-4 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-5 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-6 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-7 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-8 .h3mr a, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-9 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-1 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-2 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-3 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-7 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-8 .h3mr a, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-9 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-1 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-2 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-3 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-4 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-5 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-6 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 .h3mr a, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 .h3mr a {
-  position: relative;
-}
-.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-4 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-5 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-6 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-7 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-8 .h3mr a:hover, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-9 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-1 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-2 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-3 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-7 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-8 .h3mr a:hover, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-9 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-1 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-2 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-3 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-4 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-5 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-6 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 .h3mr a:hover, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 .h3mr a:hover {
-  color: #9771b0;
-}
-.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-4 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-5 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-6 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-7 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-8 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-9 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-1 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-2 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-3 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-7 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-8 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-9 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-1 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-2 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-3 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-4 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-5 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-6 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 span {
-  font-size: 20px;
-  font-weight: 500;
-  color: #9771b0;
-}
-.site-main .section-four .sec-4__1 .grid__column .main-card .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-4 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-5 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-6 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-7 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-8 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-9 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-10 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-11 .mc__show--on,
-.site-main .section-four .sec-4__1 .grid__column .main-card-12 .mc__show--on, .site-main .section-four .sec-4__2 .grid__column .main-card .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-4 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-5 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-6 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-7 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-8 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-9 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-10 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-11 .mc__show--on,
-.site-main .section-four .sec-4__2 .grid__column .main-card-12 .mc__show--on, .site-main .section-four .sec-4__3 .grid__column .main-card .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-4 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-5 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-6 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-7 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-8 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-9 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-10 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-11 .mc__show--on,
-.site-main .section-four .sec-4__3 .grid__column .main-card-12 .mc__show--on {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.144);
-  top: 10px;
-  left: 10px;
-  display: flex;
-  width: 95%;
-  height: 82%;
-  transition: 0.5s;
-}
-.site-main .section-four .sec-4__1 .grid__column .main-card img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-4 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-5 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-6 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-7 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-8 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-9 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-10 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-11 img,
-.site-main .section-four .sec-4__1 .grid__column .main-card-12 img, .site-main .section-four .sec-4__2 .grid__column .main-card img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-4 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-5 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-6 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-7 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-8 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-9 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-10 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-11 img,
-.site-main .section-four .sec-4__2 .grid__column .main-card-12 img, .site-main .section-four .sec-4__3 .grid__column .main-card img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-4 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-5 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-6 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-7 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-8 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-9 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-10 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-11 img,
-.site-main .section-four .sec-4__3 .grid__column .main-card-12 img {
-  height: 100%;
 }
 .site-main .section-four .sec-4__4 {
   border: 1px solid;
@@ -554,7 +449,7 @@ a:hover {
   background-color: transparent;
   opacity: 1 !important;
 }
-.site-main .section-five .sec-5__content .h5mr {
+.site-main .section-five .sec-5__content .h5morem {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
@@ -566,6 +461,7 @@ a:hover {
 .site-main .section-five .sec-5__img img {
   transform: scale(1);
   transition: transform 0.18s linear;
+  width: 100%;
 }
 .site-main .section-five .sec-5__img .lazyloaded {
   opacity: 0;
@@ -573,7 +469,7 @@ a:hover {
 .site-main .section-five .sec-5__img-check {
   animation: showAmt 1.8s linear;
 }
-.site-main .section-six .h2mr {
+.site-main .section-six .h2morem {
   text-align: center;
   font-size: 38px;
   font-weight: 600;
@@ -604,36 +500,36 @@ a:hover {
   transform: scale(1.2);
   transition: transform 1.2s linear;
 }
-.site-main .section-six .sec-6__ct-logo {
+.site-main .section-six .sec-6__main-logo {
   display: flex;
   align-items: center;
 }
-.site-main .section-six .sec-6__ct-logo img {
+.site-main .section-six .sec-6__main-logo img {
   border-radius: 50%;
   width: 14%;
   margin-right: 14px;
 }
-.site-main .section-six .sec-6__ct-logo a {
+.site-main .section-six .sec-6__main-logo a {
   font-size: 14px;
 }
-.site-main .section-six .sec-6__ct-logo a:hover {
+.site-main .section-six .sec-6__main-logo a:hover {
   color: #9771b0;
 }
-.site-main .section-six .sec-6__ct-title a {
+.site-main .section-six .sec-6__main-title a {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   margin: 12px 0;
   display: block;
   text-transform: uppercase;
 }
-.site-main .section-six .sec-6__ct-title a:hover {
+.site-main .section-six .sec-6__main-title a:hover {
   color: #9771b0;
 }
-.site-main .section-six .sec-6__ct-content p {
+.site-main .section-six .sec-6__main-content p {
   color: #666;
   letter-spacing: -0.4px;
 }
-.site-main .section-six .sec-6__ct-more {
+.site-main .section-six .sec-6__main-more {
   border: 1px solid;
   padding: 9px 14px;
   display: block;
@@ -644,7 +540,7 @@ a:hover {
   letter-spacing: -0.4px;
   text-align: center;
 }
-.site-main .section-six .sec-6__ct-more:hover {
+.site-main .section-six .sec-6__main-more:hover {
   color: #fff;
   transition: 0.4s;
   background-color: #BFABCD;
@@ -701,22 +597,22 @@ a:hover {
 .site-main .section-seven .sec-7__img img {
   width: 115px;
 }
-.site-main .section-seven .sec-7__content {
+.site-main .section-seven .sec-7__main {
   width: 86%;
   height: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.site-main .section-seven .sec-7__content strong,
-.site-main .section-seven .sec-7__content p {
+.site-main .section-seven .sec-7__main strong,
+.site-main .section-seven .sec-7__main p {
   font-size: 20px;
   letter-spacing: -0.4px;
 }
-.site-main .section-seven .sec-7__ct-star {
+.site-main .section-seven .sec-7__main-star {
   display: flex;
 }
-.site-main .section-seven .sec-7__ct-star img {
+.site-main .section-seven .sec-7__main-star img {
   width: 25px;
   margin-right: 5px;
   filter: invert(86%) sepia(30%) saturate(845%) hue-rotate(349deg) brightness(98%) contrast(93%);
@@ -767,7 +663,7 @@ a:hover {
   background-color: #1C152F;
   opacity: 0.7;
 }
-.site-main .section-eight .h3mr {
+.site-main .section-eight .h3morem {
   font-weight: 600;
   font-size: 40px;
   letter-spacing: -1px;
@@ -810,6 +706,11 @@ a:hover {
   justify-content: space-around;
   margin-top: -110px;
   margin-bottom: 85px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.site-main .section-nine .sec-7__1, .site-main .section-nine .sec-7__2, .site-main .section-nine .sec-7__3, .site-main .section-nine .sec-7__4 {
+  margin-right: 20px;
 }
 .site-footer {
   background-color: #333;
@@ -915,125 +816,205 @@ a:hover {
   filter: invert(69%) sepia(0%) saturate(0%) hue-rotate(279deg) brightness(89%) contrast(91%);
 }
 
-.mc__action-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  height: 100%;
-  justify-content: center;
+.product_item:nth-child(1), .product_item:nth-child(2) {
+  margin-right: 30px !important;
 }
-.mc__action-icon--cart, .mc__action-icon--qv, .mc__action-icon--vwl, .mc__action-icon--compare, .mc__action-icon--cart-2, .mc__action-icon--qv-2, .mc__action-icon--vwl-2, .mc__action-icon--compare-2, .mc__action-icon--cart-3, .mc__action-icon--qv-3, .mc__action-icon--vwl-3, .mc__action-icon--compare-3, .mc__action-icon--cart-4, .mc__action-icon--qv-4, .mc__action-icon--vwl-4, .mc__action-icon--compare-4, .mc__action-icon--cart-5, .mc__action-icon--qv-5, .mc__action-icon--vwl-5, .mc__action-icon--compare-5, .mc__action-icon--cart-6, .mc__action-icon--qv-6, .mc__action-icon--vwl-6, .mc__action-icon--compare-6, .mc__action-icon--cart-7, .mc__action-icon--qv-7, .mc__action-icon--vwl-7, .mc__action-icon--compare-7, .mc__action-icon--cart-8, .mc__action-icon--qv-8, .mc__action-icon--vwl-8, .mc__action-icon--compare-8, .mc__action-icon--cart-9, .mc__action-icon--qv-9, .mc__action-icon--vwl-9, .mc__action-icon--compare-9, .mc__action-icon--cart-10, .mc__action-icon--qv-10, .mc__action-icon--vwl-10, .mc__action-icon--compare-10, .mc__action-icon--cart-11, .mc__action-icon--qv-11, .mc__action-icon--vwl-11, .mc__action-icon--compare-11, .mc__action-icon--cart-12, .mc__action-icon--qv-12, .mc__action-icon--vwl-12, .mc__action-icon--compare-12 {
-  opacity: 0;
-  transform: translateY(50px);
-  width: 12%;
-  display: flex;
-  background-color: #fff;
-  height: 9%;
-  margin-right: 17px;
-  padding: 0 14px;
-  margin-top: 35vh;
-  position: relative;
+.product_item .product_item__inner:hover .item__overlay {
+  opacity: 0.2;
 }
-.mc__action-icon--cart:hover, .mc__action-icon--qv:hover, .mc__action-icon--vwl:hover, .mc__action-icon--compare:hover, .mc__action-icon--cart-2:hover, .mc__action-icon--qv-2:hover, .mc__action-icon--vwl-2:hover, .mc__action-icon--compare-2:hover, .mc__action-icon--cart-3:hover, .mc__action-icon--qv-3:hover, .mc__action-icon--vwl-3:hover, .mc__action-icon--compare-3:hover, .mc__action-icon--cart-4:hover, .mc__action-icon--qv-4:hover, .mc__action-icon--vwl-4:hover, .mc__action-icon--compare-4:hover, .mc__action-icon--cart-5:hover, .mc__action-icon--qv-5:hover, .mc__action-icon--vwl-5:hover, .mc__action-icon--compare-5:hover, .mc__action-icon--cart-6:hover, .mc__action-icon--qv-6:hover, .mc__action-icon--vwl-6:hover, .mc__action-icon--compare-6:hover, .mc__action-icon--cart-7:hover, .mc__action-icon--qv-7:hover, .mc__action-icon--vwl-7:hover, .mc__action-icon--compare-7:hover, .mc__action-icon--cart-8:hover, .mc__action-icon--qv-8:hover, .mc__action-icon--vwl-8:hover, .mc__action-icon--compare-8:hover, .mc__action-icon--cart-9:hover, .mc__action-icon--qv-9:hover, .mc__action-icon--vwl-9:hover, .mc__action-icon--compare-9:hover, .mc__action-icon--cart-10:hover, .mc__action-icon--qv-10:hover, .mc__action-icon--vwl-10:hover, .mc__action-icon--compare-10:hover, .mc__action-icon--cart-11:hover, .mc__action-icon--qv-11:hover, .mc__action-icon--vwl-11:hover, .mc__action-icon--compare-11:hover, .mc__action-icon--cart-12:hover, .mc__action-icon--qv-12:hover, .mc__action-icon--vwl-12:hover, .mc__action-icon--compare-12:hover {
-  background-color: #9771b0;
-  transition: all 0.4s;
-}
-.mc__action-icon--cart:hover img, .mc__action-icon--qv:hover img, .mc__action-icon--vwl:hover img, .mc__action-icon--compare:hover img, .mc__action-icon--cart-2:hover img, .mc__action-icon--qv-2:hover img, .mc__action-icon--vwl-2:hover img, .mc__action-icon--compare-2:hover img, .mc__action-icon--cart-3:hover img, .mc__action-icon--qv-3:hover img, .mc__action-icon--vwl-3:hover img, .mc__action-icon--compare-3:hover img, .mc__action-icon--cart-4:hover img, .mc__action-icon--qv-4:hover img, .mc__action-icon--vwl-4:hover img, .mc__action-icon--compare-4:hover img, .mc__action-icon--cart-5:hover img, .mc__action-icon--qv-5:hover img, .mc__action-icon--vwl-5:hover img, .mc__action-icon--compare-5:hover img, .mc__action-icon--cart-6:hover img, .mc__action-icon--qv-6:hover img, .mc__action-icon--vwl-6:hover img, .mc__action-icon--compare-6:hover img, .mc__action-icon--cart-7:hover img, .mc__action-icon--qv-7:hover img, .mc__action-icon--vwl-7:hover img, .mc__action-icon--compare-7:hover img, .mc__action-icon--cart-8:hover img, .mc__action-icon--qv-8:hover img, .mc__action-icon--vwl-8:hover img, .mc__action-icon--compare-8:hover img, .mc__action-icon--cart-9:hover img, .mc__action-icon--qv-9:hover img, .mc__action-icon--vwl-9:hover img, .mc__action-icon--compare-9:hover img, .mc__action-icon--cart-10:hover img, .mc__action-icon--qv-10:hover img, .mc__action-icon--vwl-10:hover img, .mc__action-icon--compare-10:hover img, .mc__action-icon--cart-11:hover img, .mc__action-icon--qv-11:hover img, .mc__action-icon--vwl-11:hover img, .mc__action-icon--compare-11:hover img, .mc__action-icon--cart-12:hover img, .mc__action-icon--qv-12:hover img, .mc__action-icon--vwl-12:hover img, .mc__action-icon--compare-12:hover img {
-  filter: invert(100%) sepia(2%) saturate(217%) hue-rotate(242deg) brightness(119%) contrast(100%);
-}
-.mc__action-icon--cart:hover::before, .mc__action-icon--qv:hover::before, .mc__action-icon--vwl:hover::before, .mc__action-icon--compare:hover::before, .mc__action-icon--cart-2:hover::before, .mc__action-icon--qv-2:hover::before, .mc__action-icon--vwl-2:hover::before, .mc__action-icon--compare-2:hover::before, .mc__action-icon--cart-3:hover::before, .mc__action-icon--qv-3:hover::before, .mc__action-icon--vwl-3:hover::before, .mc__action-icon--compare-3:hover::before, .mc__action-icon--cart-4:hover::before, .mc__action-icon--qv-4:hover::before, .mc__action-icon--vwl-4:hover::before, .mc__action-icon--compare-4:hover::before, .mc__action-icon--cart-5:hover::before, .mc__action-icon--qv-5:hover::before, .mc__action-icon--vwl-5:hover::before, .mc__action-icon--compare-5:hover::before, .mc__action-icon--cart-6:hover::before, .mc__action-icon--qv-6:hover::before, .mc__action-icon--vwl-6:hover::before, .mc__action-icon--compare-6:hover::before, .mc__action-icon--cart-7:hover::before, .mc__action-icon--qv-7:hover::before, .mc__action-icon--vwl-7:hover::before, .mc__action-icon--compare-7:hover::before, .mc__action-icon--cart-8:hover::before, .mc__action-icon--qv-8:hover::before, .mc__action-icon--vwl-8:hover::before, .mc__action-icon--compare-8:hover::before, .mc__action-icon--cart-9:hover::before, .mc__action-icon--qv-9:hover::before, .mc__action-icon--vwl-9:hover::before, .mc__action-icon--compare-9:hover::before, .mc__action-icon--cart-10:hover::before, .mc__action-icon--qv-10:hover::before, .mc__action-icon--vwl-10:hover::before, .mc__action-icon--compare-10:hover::before, .mc__action-icon--cart-11:hover::before, .mc__action-icon--qv-11:hover::before, .mc__action-icon--vwl-11:hover::before, .mc__action-icon--compare-11:hover::before, .mc__action-icon--cart-12:hover::before, .mc__action-icon--qv-12:hover::before, .mc__action-icon--vwl-12:hover::before, .mc__action-icon--compare-12:hover::before {
-  content: "Add to cart";
-  position: absolute;
-  width: 83px;
-  height: 27px;
-  border-radius: 2px;
-  top: -38px;
-  left: -16px;
-  background-color: #2d2d2d;
-  color: #fff;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.mc__action-icon--cart:hover::after, .mc__action-icon--qv:hover::after, .mc__action-icon--vwl:hover::after, .mc__action-icon--compare:hover::after, .mc__action-icon--cart-2:hover::after, .mc__action-icon--qv-2:hover::after, .mc__action-icon--vwl-2:hover::after, .mc__action-icon--compare-2:hover::after, .mc__action-icon--cart-3:hover::after, .mc__action-icon--qv-3:hover::after, .mc__action-icon--vwl-3:hover::after, .mc__action-icon--compare-3:hover::after, .mc__action-icon--cart-4:hover::after, .mc__action-icon--qv-4:hover::after, .mc__action-icon--vwl-4:hover::after, .mc__action-icon--compare-4:hover::after, .mc__action-icon--cart-5:hover::after, .mc__action-icon--qv-5:hover::after, .mc__action-icon--vwl-5:hover::after, .mc__action-icon--compare-5:hover::after, .mc__action-icon--cart-6:hover::after, .mc__action-icon--qv-6:hover::after, .mc__action-icon--vwl-6:hover::after, .mc__action-icon--compare-6:hover::after, .mc__action-icon--cart-7:hover::after, .mc__action-icon--qv-7:hover::after, .mc__action-icon--vwl-7:hover::after, .mc__action-icon--compare-7:hover::after, .mc__action-icon--cart-8:hover::after, .mc__action-icon--qv-8:hover::after, .mc__action-icon--vwl-8:hover::after, .mc__action-icon--compare-8:hover::after, .mc__action-icon--cart-9:hover::after, .mc__action-icon--qv-9:hover::after, .mc__action-icon--vwl-9:hover::after, .mc__action-icon--compare-9:hover::after, .mc__action-icon--cart-10:hover::after, .mc__action-icon--qv-10:hover::after, .mc__action-icon--vwl-10:hover::after, .mc__action-icon--compare-10:hover::after, .mc__action-icon--cart-11:hover::after, .mc__action-icon--qv-11:hover::after, .mc__action-icon--vwl-11:hover::after, .mc__action-icon--compare-11:hover::after, .mc__action-icon--cart-12:hover::after, .mc__action-icon--qv-12:hover::after, .mc__action-icon--vwl-12:hover::after, .mc__action-icon--compare-12:hover::after {
-  content: "";
-  position: absolute;
-  top: -11px;
-  left: 18px;
-  border-width: 5px 5px;
-  border-style: solid;
-  border-color: #2d2d2d transparent transparent transparent;
-}
-.mc__action-icon--qv:hover::before, .mc__action-icon--qv-2:hover::before, .mc__action-icon--qv-3:hover::before {
-  content: "Quick View";
-}
-.mc__action-icon--vwl:hover::before, .mc__action-icon--vwl-2:hover::before, .mc__action-icon--vwl-3:hover::before {
-  content: "Add to wishlist";
-  width: 100px;
-  left: -28px;
-}
-.mc__action-icon--compare:hover::before, .mc__action-icon--compare-2:hover::before, .mc__action-icon--compare-3:hover::before {
-  content: "Add to compare";
-  width: 105px;
-  left: -30px;
-}
-.mc__action-icon .mc__acic-cart--on, .mc__action-icon .mc__acic-qv--on, .mc__action-icon .mc__acic-vwl--on, .mc__action-icon .mc__acic-compare--on {
+.product_item .product_item__inner:hover .button {
   opacity: 1;
-  transform: translateY(-20px);
+  transform: translate(0, 10px);
 }
-.mc__action-icon .mc__acic-cart--on {
-  transition: transform 0.3s ease-in-out, opacity 0.7s ease-in-out;
+.product_item .product_item__thumbnail {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
 }
-.mc__action-icon .mc__acic-qv--on {
-  transition: transform 0.4s ease-in-out, opacity 0.8s ease-in-out;
+.product_item .product_item__thumbnail:hover .item__overlay {
+  opacity: 0.2;
 }
-.mc__action-icon .mc__acic-vwl--on {
-  transition: transform 0.5s ease-in-out, opacity 0.9s ease-in-out;
+.product_item .product_item__thumbnail:hover .button {
+  opacity: 1;
+  transform: translate(0, 10px);
 }
-.mc__action-icon .mc__acic-compare--on {
-  transition: transform 0.6s ease-in-out, opacity 1s ease-in-out;
+.product_item .product_item__thumbnail-holder a {
+  display: block;
 }
-.mc__title, .mc__title-2, .mc__title-3 {
-  justify-content: center;
-  align-items: center;
+.product_item .product_item__thumbnail-holder a:hover .item__overlay {
+  opacity: 0.2;
+}
+.product_item .product_item__thumbnail-holder a img {
+  width: 100%;
+  display: block;
+}
+.product_item .product_item__info {
+  padding-left: 1em;
+  padding-right: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
   background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-right: 30px;
+  transition: all 0.3s;
   opacity: 0;
+  visibility: hidden;
+  transform: translateY(100%);
+  z-index: 2;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.product_item .product_item__info .price {
+  font-size: 18px;
+  color: #9771b0;
+}
+.product_item .product_item__info-sec-4--show {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  color: #9771b0;
+  line-height: 14px;
+  margin-bottom: 25px;
+}
+.product_item .product_item__info-sec-4--show .price {
+  font-weight: 400;
+}
+.product_item .product_item__title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 10px 0;
+  letter-spacing: -0.8px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+.product_item .product_item__title:hover a {
+  color: #9771b0;
+}
+.product_item__inner {
+  position: relative;
+  overflow: hidden;
+}
+.product_item__inner:hover .product_item__info {
+  opacity: 1;
+  visibility: unset;
+  transform: translateY(0);
+}
+
+.item__overlay {
+  background-color: #333;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 250ms ease-out;
+}
+
+.wrap-addto {
+  position: absolute;
+  bottom: 50%;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+}
+.wrap-addto .button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  line-height: 44px;
+  font-size: 16px;
+  position: relative;
+  opacity: 0;
+  background-color: #fff;
+  color: #333;
+  margin: 5px;
+  transform: translate(0, 40px);
+  transition-delay: 100ms;
+}
+.wrap-addto .button:hover {
+  background-color: #9771b0;
+}
+.wrap-addto .button:hover img {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(116deg) brightness(98%) contrast(106%);
+}
+.wrap-addto .button:hover .labtn-text {
+  opacity: 1;
+  transform: translate3d(-50%, -50%, 0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.wrap-addto .button:nth-child(2) {
+  transition-delay: 150ms;
+}
+.wrap-addto .button:nth-child(3), .wrap-addto .button:nth-child(4) {
+  transition-delay: 200ms;
+}
+.wrap-addto .button .labtn-text {
+  font-weight: 400;
+  position: absolute;
+  padding: 5px 12px;
+  z-index: 3;
+  opacity: 0;
+  white-space: pre;
+  font-size: 12px;
+  bottom: 100%;
+  line-height: 14px;
+  left: 50%;
+  background-color: #333;
+  color: #fff;
+  text-transform: none;
+  border-radius: 2px;
+  transform: translate3d(-50%, 0, 0);
+  transition: opacity 0.2s, margin 0.3s, transform 0.3s;
   pointer-events: none;
 }
-.mc__title--show, .mc__title-2--show, .mc__title-3--show {
-  transition: transform 0.3s ease-in-out;
-  transform: translateY(-100%);
-  pointer-events: all;
+.wrap-addto .button .labtn-text::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #333;
+  opacity: 0.9;
+  transform: translateX(-50%);
+}
+
+.bottom-notification {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 1em 1.41575em;
+  background-color: #3d9cd2;
+  color: #fff;
+  z-index: 9999;
   display: flex;
-  opacity: 1;
+  justify-content: space-between;
 }
-.mc__title a, .mc__title-2 a, .mc__title-3 a {
-  margin-left: 0;
+.bottom-notification .btn-icon img {
+  filter: invert(98%) sepia(15%) saturate(239%) hue-rotate(22deg) brightness(113%) contrast(100%);
+  margin-right: 10px;
 }
-.mc__title a:first-child, .mc__title-2 a:first-child, .mc__title-3 a:first-child {
-  display: none;
+.bottom-notification .btn-icon span {
+  font-size: 15px;
 }
-.mc__title .h3mr, .mc__title-2 .h3mr, .mc__title-3 .h3mr {
-  font-size: 1rem;
-  text-transform: uppercase;
-  margin-bottom: 0;
-  font-weight: 800;
+.bottom-notification .btn-off {
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: -1em -1.41575em -1em 0;
+  padding: 1em 1.41575em;
+  color: #fff;
 }
-.mc__title .h3mr a:hover, .mc__title-2 .h3mr a:hover, .mc__title-3 .h3mr a:hover {
+.bottom-notification .btn-off:hover {
   color: #9771b0;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-.mc__title span, .mc__title-2 span, .mc__title-3 span {
-  color: #9771b0;
-  font-weight: 500;
-  font-size: 1.1rem;
 }
 
 @keyframes showAmt {
@@ -1052,16 +1033,22 @@ a:hover {
     transform: translateY(0);
   }
 }
-.site-main .section-one .grid__column:first-child button:hover, .site-main .section-three button:hover, .site-main .section-four .sec-4__4:hover {
-  color: #fff;
-  background-color: #9771b0;
-  transition: 0.4s;
+@keyframes mcActionOn {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
-
-.site-header .myNavOn, .mc__action-icon--cart, .mc__action-icon--qv, .mc__action-icon--vwl, .mc__action-icon--compare, .mc__action-icon--cart-2, .mc__action-icon--qv-2, .mc__action-icon--vwl-2, .mc__action-icon--compare-2, .mc__action-icon--cart-3, .mc__action-icon--qv-3, .mc__action-icon--vwl-3, .mc__action-icon--compare-3, .mc__action-icon--cart-4, .mc__action-icon--qv-4, .mc__action-icon--vwl-4, .mc__action-icon--compare-4, .mc__action-icon--cart-5, .mc__action-icon--qv-5, .mc__action-icon--vwl-5, .mc__action-icon--compare-5, .mc__action-icon--cart-6, .mc__action-icon--qv-6, .mc__action-icon--vwl-6, .mc__action-icon--compare-6, .mc__action-icon--cart-7, .mc__action-icon--qv-7, .mc__action-icon--vwl-7, .mc__action-icon--compare-7, .mc__action-icon--cart-8, .mc__action-icon--qv-8, .mc__action-icon--vwl-8, .mc__action-icon--compare-8, .mc__action-icon--cart-9, .mc__action-icon--qv-9, .mc__action-icon--vwl-9, .mc__action-icon--compare-9, .mc__action-icon--cart-10, .mc__action-icon--qv-10, .mc__action-icon--vwl-10, .mc__action-icon--compare-10, .mc__action-icon--cart-11, .mc__action-icon--qv-11, .mc__action-icon--vwl-11, .mc__action-icon--compare-11, .mc__action-icon--cart-12, .mc__action-icon--qv-12, .mc__action-icon--vwl-12, .mc__action-icon--compare-12, .mc__action-icon--cart:hover::before, .mc__action-icon--qv:hover::before, .mc__action-icon--vwl:hover::before, .mc__action-icon--compare:hover::before, .mc__action-icon--cart-2:hover::before, .mc__action-icon--qv-2:hover::before, .mc__action-icon--vwl-2:hover::before, .mc__action-icon--compare-2:hover::before, .mc__action-icon--cart-3:hover::before, .mc__action-icon--qv-3:hover::before, .mc__action-icon--vwl-3:hover::before, .mc__action-icon--compare-3:hover::before, .mc__action-icon--cart-4:hover::before, .mc__action-icon--qv-4:hover::before, .mc__action-icon--vwl-4:hover::before, .mc__action-icon--compare-4:hover::before, .mc__action-icon--cart-5:hover::before, .mc__action-icon--qv-5:hover::before, .mc__action-icon--vwl-5:hover::before, .mc__action-icon--compare-5:hover::before, .mc__action-icon--cart-6:hover::before, .mc__action-icon--qv-6:hover::before, .mc__action-icon--vwl-6:hover::before, .mc__action-icon--compare-6:hover::before, .mc__action-icon--cart-7:hover::before, .mc__action-icon--qv-7:hover::before, .mc__action-icon--vwl-7:hover::before, .mc__action-icon--compare-7:hover::before, .mc__action-icon--cart-8:hover::before, .mc__action-icon--qv-8:hover::before, .mc__action-icon--vwl-8:hover::before, .mc__action-icon--compare-8:hover::before, .mc__action-icon--cart-9:hover::before, .mc__action-icon--qv-9:hover::before, .mc__action-icon--vwl-9:hover::before, .mc__action-icon--compare-9:hover::before, .mc__action-icon--cart-10:hover::before, .mc__action-icon--qv-10:hover::before, .mc__action-icon--vwl-10:hover::before, .mc__action-icon--compare-10:hover::before, .mc__action-icon--cart-11:hover::before, .mc__action-icon--qv-11:hover::before, .mc__action-icon--vwl-11:hover::before, .mc__action-icon--compare-11:hover::before, .mc__action-icon--cart-12:hover::before, .mc__action-icon--qv-12:hover::before, .mc__action-icon--vwl-12:hover::before, .mc__action-icon--compare-12:hover::before, .mc__title--show, .mc__title-2--show, .mc__title-3--show {
-  animation: showAmt 0.3s linear;
+@keyframes mcActionOff {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(50px);
+  }
 }
-
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
@@ -1071,4 +1058,73 @@ a:hover {
     top: 15px;
     right: 35px;
   }
+}
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .site-header {
+    background-color: #fff;
+  }
+  .site-main {
+    margin-top: 120px;
+  }
+  .site-main .section-one .grid__column:first-child {
+    padding-left: 35px;
+    padding-right: 0;
+    margin-bottom: 80px;
+  }
+  .site-main .section-one .grid__column:first-child .h1mr {
+    font-size: 21px;
+  }
+  .site-main .section-one .grid__column:first-child strong {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .site-main .section-one .grid__column:first-child {
+    padding-left: 60px;
+  }
+  .site-main .section-one .grid__column:first-child .h1mr {
+    font-size: 21px;
+  }
+  .site-main .section-two .h2mr {
+    font-size: 32px;
+    top: 150px;
+    left: -95px;
+  }
+  .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 .h3mr,
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-1 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 .h3mr,
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-2 span, .site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 .h3mr,
+.site-main .section-four .sec-4__1 .grid__column .mc__title-sec4-3 span {
+    font-size: 16px;
+  }
+  .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 .h3mr,
+.site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-4 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 .h3mr,
+.site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-5 span, .site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 .h3mr,
+.site-main .section-four .sec-4__2 .grid__column .mc__title-sec4-6 span {
+    font-size: 16px;
+  }
+  .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 .h3mr,
+.site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-7 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 .h3mr,
+.site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-8 span, .site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 .h3mr,
+.site-main .section-four .sec-4__3 .grid__column .mc__title-sec4-9 span {
+    font-size: 16px;
+  }
+  .site-main .section-four .sec-4__4 {
+    width: 15%;
+  }
+  .site-main .section-five .sec-5__1 .grid__column, .site-main .section-five .sec-5__2 .grid__column {
+    width: 24.5%;
+  }
+  .site-footer .grid__column:nth-child(1) {
+    padding-right: 14px;
+  }
+}
+.site-main .section-one .grid__column:first-child button:hover, .site-main .section-three button:hover, .site-main .section-four .sec-4__4:hover {
+  color: #fff;
+  background-color: #9771b0;
+  transition: 0.4s;
+}
+
+.site-header .myNavOn {
+  animation: showAmt 0.3s linear;
 }
