@@ -13,7 +13,360 @@
 
 //Mobile
 @media screen and (max-width: 739px) {
-    
+    .site {
+        &-header {
+            background-color: #fff;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            .sh-content {
+                &-logo {
+                    a {
+                        img {
+                            width: 140px;
+                        }
+                    }
+                }
+                &-wrap {
+                    .openbtn {
+                        margin-left: -6px;
+                    }
+                }
+            }
+            .sh-col__right {
+                div {
+                    margin-right: 12px;
+                    &:nth-child(3) {
+                        margin-right: 32px;
+                    }
+                }
+                &-item {
+                    &:nth-child(2) {
+                        position: absolute;
+                        left: 16%;
+                    }
+                }
+            }
+        }
+        &-main {
+            .section {
+                &-one {
+                    .grid__column {
+                        &:first-child {
+                            width: 54%;
+                            padding: 0px 0 60px 40px;
+                            .h1morem,
+                            p {
+                                z-index: 1;
+                            }
+                            .h1morem {
+                                width: 300px;
+                                font-size: 25px;
+                                line-height: 30px;
+                            }
+                            p {
+                                width: 230px;
+                                font-size: 16.4px;
+                            }
+                            strong {
+                                font-size: 25px;
+                                margin-top: 30px;
+                            }
+                            button {
+                                padding: 12px 18px;
+                                letter-spacing: -0.5px;
+                                font-size: 14px;
+                            }
+                        }
+                        &:last-child {
+                            width: 46%;
+                            height: 500px;
+                            img {
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                    .slick-dots {
+                        bottom: 5%;
+                        left: 5%;
+                        li {
+                            margin: 0 11px;
+                        }
+                    }
+                }
+                &-two {
+                    margin: 40px 0 70px;
+                    .sec-2 {
+                        &__title {
+                            left: 28px;
+                            font-size: 24px;
+                            transform: translateX(-100%) rotate(-90deg);
+                            letter-spacing: 2px;
+                        }
+                    }
+                    .grid {
+                        padding-left: 42px;
+                    }
+                    .slick-dots {
+                        bottom: -4%;
+                        li {
+                            margin-right: 12px;
+                            button {
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                        .slick-active {
+                            button {
+                                background-color: #3E3E3E;
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                    }
+                }
+                &-three {
+                    padding: 70px 15px;
+                    &::before {
+                        padding: 200px 0;
+                    }
+                    .h2morem {
+                        font-size: 22px;
+                    }
+                    button {
+                        font-size: 18px;
+                    }
+                }
+                &-four {
+                    .sec-4 {
+                        &__1,
+                        &__2,
+                        &__3 {
+                            .grid {
+                                flex-direction: column;
+                                &__column {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        &__4 {
+                            font-size: 16px;
+                            width: 34%;
+                        }
+                    }
+                    .h3morem {
+                        font-size: 28px;
+                    }
+                }
+                &-five {
+                    margin-right: -6px;
+                    .sec-5 {
+                        &__1,
+                        &__2 {
+                            .grid__column {
+                                width: 48%;
+                                &:nth-child(1),
+                                &:nth-child(2) {
+                                    margin-bottom: 6px;
+                                }
+                            }
+                        }
+                        &__content {
+                            .h5morem {
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+                &-six {
+                    margin-bottom: -54px;
+                    .h2morem {
+                        font-size: 24px;
+                        letter-spacing: 0px;
+                    }
+                    .sec-6 {
+                        &__img {
+                            margin: 0 10px;
+                            img {
+                                height: unset;
+                                object-fit: contain;
+                            }
+                        }
+                        &__main {
+                            padding: 0 10px;
+                            &-more {
+                                width: 44%;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    .slick-dots {
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: -12%;
+                        .slick-active {
+                            button {
+                                width: 10px;
+                                height: 10px;
+                                font-size: 0;
+                            }
+                        }
+                        li {
+                            margin: 0 8px;
+                            button {
+                                width: 10px;
+                                height: 10px;
+                                font-size: 0;
+                            }
+                        }
+                    }
+                }
+                &-seven {
+                    overflow: unset;
+                    margin: 0 22px;
+                    top: 40px;
+                    .slick {
+                        &-next {
+                            right: -20px;
+                            background-position: right;
+                        }
+                        &-prev {
+                            left: -20px;
+                            background-position: left;
+                        }
+                        &-prev,
+                        &-next {
+                            background-size: 25px;
+                        }
+                    }
+                    .sec-7 {
+                        padding: 45px 0px;
+                        &__main {
+                            height: 15rem;
+                            padding-right: 10px;
+                            justify-content: space-between;
+                            strong,
+                            p {
+                                font-size: 16.4px;
+                            }
+                            &-star {
+                                img {
+                                    width: 17px;
+                                    margin-right: 3px;
+                                }
+                            }
+                        }
+                        &__img {
+                            margin: 0 10px;
+                            align-items: baseline;
+                            img {
+                                width: 90px;
+                            }
+                        }
+                    }
+                }
+                &-eight {
+                    &::before {
+                        padding: 297px 0;
+                    }
+                    .h3morem {
+                        font-size: 26px;
+                        margin-top: 44px;
+                    }
+                    p {
+                        margin: 0 10px;
+                    }
+                    .sec-8 {
+                        &__form {
+                            a,
+                            input {
+                                font-size: 15px;
+                            }
+                            input {
+                                width: 250px;
+                            }
+                        }
+                    }
+                }
+                &-nine {
+                    margin-top: -170px;
+                    margin-bottom: 58px;
+                    .slick {
+                        &-dots {
+                            left: 50%;
+                            transform: translateX(-50%);
+                            li {
+                                margin: 0 5px;
+                                button {
+                                    width: 10px;
+                                    height: 10px;
+                                }
+                            }
+                            .slick-active {
+                                button {
+                                    background-color: #3E3E3E;
+                                    width: 10px;
+                                    height: 10px;
+                                }
+                            }
+                        }
+                        &-list {
+                            .slick-track {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-footer {
+            .grid {
+                .tablet--fix-width {
+                    &:nth-child(1) {
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                &__column {
+                    &:nth-child(2) {
+                        width: 100%;
+                        .mobile--fix-footer {
+                            margin-left: 10px;
+                        }
+                        .site-ft__sec {
+                            &-1 {
+                                width: 100%;
+                                flex-direction: row;
+                            }
+                        }
+                    }
+                    &:nth-child(3) {
+                        transform: translateX(70px);
+                    }
+                }
+            }
+        }
+    }
+    .product_item {
+        &__inner {
+            margin: 0 20px;
+            &--fix-width {
+                //margin: 0 5px 0 15px;
+                margin: 0 0 0 15px;
+            }
+        }
+    }
+    .sh-content-logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .site-ft {
+        &__company,
+        &__useful {
+            width: 50%;
+        }
+    }
 }
 
 //Tablet 
@@ -24,20 +377,159 @@
         }
         &-main {
             margin-top: 120px;
-            .section-one {
-                .grid__column {
-                    &:first-child {
-                        padding-left: 35px;
-                        padding-right: 0;
-                        margin-bottom: 80px;
-                        .h1mr {
-                            font-size: 21px;
+            .section {
+                &-one {
+                    .grid__column {
+                        &:first-child {
+                            padding-left: 35px;
+                            padding-right: 0;
+                            margin-bottom: 80px;
+                            .h1morem {
+                                font-size: 21px;
+                            }
+                            strong {
+                                font-size: 30px;
+                                margin-top: 10px;
+                            }
                         }
-                        strong {
-                            font-size: 30px;
-                            margin-top: 10px;
+                        &:last-child {
+                            height: 500px;
                         }
                     }
+                }
+                &-two {
+                    .grid {
+                        padding-left: 100px;
+                    }
+                    .slick-dots {
+                        bottom: -6%;
+                        left: 53%;
+                        li {
+                            button {
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                        .slick-active {
+                            button {
+                                width: 10px;
+                                height: 10px;
+                                background-color: #3E3E3E;
+                            }
+                        }
+                    }
+                    .sec-2__title {
+                        left: 52px;
+                        font-size: 22px;
+                    }
+                }
+                &-three {
+                    .h2morem {
+                        font-size: 4vw;
+                    }
+                    &::before {
+                        padding: 242px 0;
+                    }
+                }
+                &-four {
+                    .sec-4 {
+                        &__1,
+                        &__2,
+                        &__3 {
+                            .grid__column {
+                                width: 31%;
+                            }
+                        }
+                        &__4 {
+                            width: 20%;
+                        }
+                    }
+                }
+                &-five {
+                    .sec-5 {
+                        &__1,
+                        &__2 {
+                            .grid__column {
+                                width: 24.4%;
+                            }
+                        }
+                        &__content {
+                            .h5morem {
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+                &-six {
+                    .sec-6 {
+                        &__main-more {
+                            width: 50%;
+                        }
+                        &__1,
+                        &__2,
+                        &__3,
+                        &__4 {
+                            padding: 0 20px;
+                        }
+                    }
+                    .h2morem {
+                        font-size: 30px;
+                        letter-spacing: -1px;
+                    }
+                    .slick-dots {
+                        left: 0;
+                        justify-content: center;
+                        width: 100%;
+                    }
+                }
+                &-eight {
+                    .h3morem {
+                        font-size: 30px;
+                    }
+                    &::before {
+                        padding: 267px 0;
+                    }
+                }
+            }
+        }
+        &-footer {
+            .grid {
+                .tablet--fix-width {
+                    &:nth-child(1) {
+                        width: 100%;
+                        text-align: center;
+                    }
+                    &:nth-child(2) {
+                        //width: 72%;
+                        width: 70%;
+                        padding-left: 30px;
+                    }
+                    &:nth-child(3) {
+                        width: 37%;
+                    }
+                }
+            }
+        }
+    }
+    .product_item {
+        &__inner {
+            margin-right: 10px;
+        }
+    }
+    .sh-content-logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .site-header {
+        .sh-col__right {
+            div {
+                margin-right: 12px;
+            }
+            &-item {
+                &:nth-child(2) {
+                    position: absolute;
+                    left: 8%;
                 }
             }
         }
@@ -53,8 +545,8 @@
                     .grid__column {
                         &:first-child {
                             padding-left: 60px;
-                            .h1mr {
-                                font-size: 21px;
+                            .h1morem {
+                                font-size: 22px;
                             }
                         }
                         
@@ -62,10 +554,16 @@
                     
                 }
                 &-two {
-                    .h2mr {
-                        font-size: 32px;
-                        top: 150px;
-                        left: -95px;
+                    .sec-2__title {
+                        font-size: 30px;
+                        left: 45px;
+                        transform: translateX(-100%) rotate(-90deg);
+                    }
+                    .grid {
+                        padding-left: 90px;
+                        &__column {
+                            width: 32.8%;
+                        }
                     }
                 }
                 &-four {
@@ -76,7 +574,7 @@
                                     &-1,
                                     &-2,
                                     &-3 {
-                                        .h3mr,
+                                        .h3morem,
                                         span {
                                             font-size: 16px;
                                         }
@@ -90,7 +588,7 @@
                                     &-4,
                                     &-5,
                                     &-6 {
-                                        .h3mr,
+                                        .h3morem,
                                         span {
                                             font-size: 16px;
                                         }
@@ -104,7 +602,7 @@
                                     &-7,
                                     &-8,
                                     &-9 {
-                                        .h3mr,
+                                        .h3morem,
                                         span {
                                             font-size: 16px;
                                         }
@@ -137,9 +635,78 @@
             }
         }
     }
+    .product_item {
+        .product_item {
+            &__title  {
+                font-size: 15px;
+                line-height: 25px;
+                width: 75%;
+            }
+        }
+        &__inner {
+            margin-right: 10px;
+        }
+    }
 }
 
 // 2K
 @media screen and (min-width: 2047px) {
-
+    .site-main {
+        .section {
+            &-two {
+                .grid__column {
+                    width: 31.8%;
+                }
+                .sec-2 {
+                    &__title {
+                        font-size: 70px;
+                    }
+                }
+            }
+            &-four {
+                .sec-4 {
+                    &__1,
+                    &__2,
+                    &__3 {
+                        .grid__column {
+                            width: 15%;
+                        }
+                    }
+                }
+            }
+            &-seven {
+                max-width: 1640px;
+                margin: 0 auto;
+                .sec-7 {
+                    padding: 60px 190px;
+                    &__main {
+                        strong,
+                        p {
+                            font-size: 1vw;
+                        }
+                    }
+                }
+                .slick {
+                    &-prev {
+                        left: 6%;
+                    }
+                    &-next {
+                        right: 6%;
+                    }
+                }
+            }
+        }
+    }
+    .product_item {
+        .product_item {
+            &__title {
+                font-size: 25px;
+            }
+            &__info {
+                .price {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
 }

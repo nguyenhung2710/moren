@@ -274,7 +274,40 @@ a {
                 .grid {
                     padding-left: 120px;
                     &__column {
-                        width: 30.4%;
+                        width: 32.8%;
+                    }
+                }
+                .slick {
+                    &-dots {
+                        display: flex;
+                        position: absolute;
+                        bottom: -26%;
+                        left: 48%;
+                        font-size: 0;
+                        li {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 22px;
+                            button {
+                                border: none;
+                                border-radius: 50%;
+                                background-color: #99999973;
+                                color: transparent;
+                                width: 14px;
+                                height: 14px;
+                                cursor: pointer;
+                            }
+                        }
+                        .slick-active {
+                            button {
+                                border: none;
+                                border-radius: 50%;
+                                background-color: #BFABCD;
+                                color: #BFABCD;
+                                width: 14px;
+                                height: 14px;
+                            }
+                        }
                     }
                 }
             }
@@ -342,8 +375,7 @@ a {
                     &__3 {
                         .grid {
                             &__column {
-                                margin-right: 40px !important;
-                                width: 27.1%;
+                                width: 29.4%;
                                 &:nth-child(3) {
                                     margin-right: 0 !important;
                                 }
@@ -446,12 +478,14 @@ a {
                 .sec-6 {
                     margin-bottom: 150px;
                     &__1,
-                    &__2 {
+                    &__2,
+                    &__3,
+                    &__4 {
                         .grid__column {
-                            &:nth-child(2),
-                            &:nth-child(4),
-                            &:nth-child(6),
-                            &:nth-child(8) {
+                            // &:nth-child(2),
+                            // &:nth-child(4),
+                            // &:nth-child(6),
+                            &:nth-child(2) {
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
@@ -459,7 +493,9 @@ a {
                         }
                     }
                     &__1,
-                    &__2 {
+                    &__2,
+                    &__3,
+                    &__4 {
                         display: flex;
                     }
                     &__img {
@@ -696,16 +732,60 @@ a {
             &-nine {
                 display: flex;
                 justify-content: space-around;
-                margin-top: -110px;
-                margin-bottom: 85px;
+                margin-top: -180px;
+                margin-bottom: 45px;
                 padding-left: 10px;
                 padding-right: 10px;
-                .sec-7 {
+                .sec-9 {
                     &__1,
                     &__2,
                     &__3,
-                    &__4 {
-                        margin-right: 20px;
+                    &__4,
+                    &__5 {
+                        //margin-right: 20px;
+                        margin: 0 10px;
+                    }
+                    &__img {
+                        height: 100%;
+                        object-fit: scale-down;
+                    }
+                }
+                .slick {
+                    &-dots {
+                        display: flex;
+                        position: absolute;
+                        bottom: -26%;
+                        left: 48%;
+                        font-size: 0;
+                        li {
+                            display: flex;
+                            align-items: center;
+                            margin-right: 22px;
+                            button {
+                                border: none;
+                                border-radius: 50%;
+                                background-color: #99999973;
+                                color: transparent;
+                                width: 14px;
+                                height: 14px;
+                                cursor: pointer;
+                            }
+                        }
+                        .slick-active {
+                            button {
+                                border: none;
+                                border-radius: 50%;
+                                background-color: #BFABCD;
+                                color: #BFABCD;
+                                width: 14px;
+                                height: 14px;
+                            }
+                        }
+                    }
+                    &-list {
+                        .slick-track {
+                            display: flex;
+                        }
                     }
                 }
             }
@@ -842,11 +922,13 @@ a {
     }
 }
 
+
+
 .product {
     &_item {
         &:nth-child(1),
         &:nth-child(2) {
-            margin-right: 30px !important;
+            //margin-right: 30px !important;
         }
         .product_item {
             &__inner {
@@ -885,6 +967,7 @@ a {
                         }
                         img {
                             width: 100%;
+                            height: 100%;
                             display: block;
                         }
                     }
@@ -940,6 +1023,7 @@ a {
         &__inner {
             position: relative;
             overflow: hidden;
+            margin-right: 30px;
             &:hover {
                 .product_item__info {
                     opacity: 1;
@@ -1033,6 +1117,10 @@ a {
                 opacity: .9;
                 transform: translateX(-50%);
             }
+        }
+        &__img {
+            height: 40px;
+            margin: 0 auto;
         }
     }
 }

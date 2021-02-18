@@ -21,12 +21,60 @@ jQuery(document).ready(function ($) {
 
     //Carousel
     $(function () {
-        $('.section-one, .sec-6').slick({
+        $('.section-one').slick({
             dots: true,
             infinite: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: false,
+        });
+        $('.product__sec-2').slick({
+            dots: false,
+            infinite: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 991,
+                    settings: {
+                        dots: true,
+                        infinite: true,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        dots: true,
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                },
+            ]
+        });
+        $('.sec-6').slick({
+            dots: true,
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 991,
+                    settings: {
+                        dots: true,
+                        infinite: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                    }
+                }
+            ]
         });
         $('.section-seven').slick({
             dots: false,
@@ -35,16 +83,44 @@ jQuery(document).ready(function ($) {
             slidesToScroll: 1,
             arrows: true,
         });
+        $('.section-nine').slick({
+            dots: false,
+            infinite: false,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 767,
+                    settings: {
+                        dots: true,
+                        infinite: true,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        arrows: false,
+                    }
+                }
+            ]
+        });
     });
 
     //IMG Sec-2
 
     //IMG Sec-5
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 3300) {
-            $(".sec-5__img").addClass("sec-5__img-check");
-            $(".lazyloaded").css("opacity", "1");
-            $(".sec-5__content").css("opacity", "0.6");
-        }
-    });
+    $(function () {
+        const window_height = $(window).height();
+        $(window).scroll(function () {
+            const scroll = $(window).scrollTop();
+            const sec = $('.section-five');
+            sec.each(function (e) {
+                const $this = $(this);
+                const offset = $this.offset().top;
+                if (scroll >= offset - (window_height * 0.75)) {
+                    $(".sec-5__img").addClass("sec-5__img-check");
+                    $(".lazyloaded").css("opacity", "1");
+                    $(".sec-5__content").css("opacity", "0.6");
+                }
+            });
+        });
+    })
 });
