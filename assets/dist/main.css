@@ -125,12 +125,59 @@ a:hover {
   max-width: 96%;
   width: 100%;
 }
-.site-header #myNav {
+.site-header #myNav,
+.site-header #myNavSearch {
   width: 100%;
   display: none;
 }
+.site-header #myNavSearch {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
 .site-header .myNavOn {
   display: block !important;
+}
+.site-header .myNavSearchOn {
+  display: flex !important;
+}
+.site-header .nav-search {
+  border-bottom: 2px solid #fff;
+  width: fit-content;
+  text-align: center;
+}
+.site-header .nav-search input {
+  background-color: transparent;
+  border: none;
+  width: 790px;
+  font-size: 20px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+.site-header .nav-search__item {
+  display: flex;
+  margin-top: 20px;
+}
+.site-header .nav-search__item input {
+  text-align: center;
+  margin-top: 0;
+  font-size: 30px;
+  padding-bottom: 0;
+  color: #fff;
+}
+.site-header .nav-search__item input::placeholder {
+  color: #fff;
+}
+.site-header .nav-search__item a {
+  width: 6%;
+  padding: 0;
+  margin: 0 15px 10px 0;
+}
+.site-header .nav-search__item a img {
+  filter: invert(100%) sepia(19%) saturate(84%) hue-rotate(67deg) brightness(118%) contrast(100%);
+}
+.site-header .nav-search p {
+  margin-right: 45px;
 }
 .site-header .overlay {
   height: 100%;
@@ -180,6 +227,67 @@ a:hover {
 .site-header .overlay .closebtn:hover {
   transform: rotate(90deg);
   color: #9771b0;
+}
+.site-header .overlay .closebtn-search {
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  font-size: 70px;
+}
+.site-header .overlay .closebtn-search:hover {
+  transform: rotate(90deg);
+  color: #9771b0;
+}
+.site-header .overlay-cart {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.site-header .overlay-cart .nav-cart {
+  position: relative;
+  top: 15%;
+  left: 11%;
+}
+.site-header .overlay-cart .nav-cart p {
+  display: block;
+  transition: 0.3s;
+}
+.site-header .overlay-cart .nav-cart p:nth-child(1) {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.site-header .overlay-cart .nav-cart p:nth-child(2) {
+  font-size: 14px;
+}
+.site-header .overlay-cart .closebtn-cart {
+  position: absolute;
+  top: 50px;
+  right: 52px;
+  font-size: 57px;
+  line-height: 36px;
+  transition: 0.3s;
+}
+.site-header .overlay-cart .closebtn-cart:hover {
+  color: #9771b0;
+  transform: rotate(90deg);
+}
+.site-header .nav-cart__overlay {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #232324;
+  opacity: 0.7;
+  z-index: 1;
+  display: none;
 }
 .site-header .sh-content-wrap {
   width: 100%;
@@ -1092,6 +1200,14 @@ a:hover {
     opacity: 1;
   }
 }
+@keyframes offAmt {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 @keyframes navBar {
   from {
     transform: translateY(-120px);
@@ -1613,6 +1729,6 @@ a:hover {
   transition: 0.4s;
 }
 
-.site-header .myNavOn {
+.site-header .myNavOn, .site-header .myNavSearchOn {
   animation: showAmt 0.3s linear;
 }

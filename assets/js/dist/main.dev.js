@@ -13,9 +13,39 @@ jQuery(document).ready(function ($) {
   $(function () {
     $(".closebtn").click(function () {
       $("#myNav").removeClass("myNavOn");
+      $("html").css("overflow", "unset");
     });
     $(".openbtn").click(function () {
       $("#myNav").addClass("myNavOn");
+      $("html").css("overflow", "hidden");
+    });
+  }); // Search
+
+  $(function () {
+    $(".closebtn-search").click(function () {
+      //$("#myNavSearch").fadeOut("slow");
+      $("#myNavSearch").removeClass("myNavSearchOn");
+      $("html").css("overflow", "unset");
+    });
+    $(".btn-search").click(function () {
+      //$("#myNavSearch").fadeIn("slow");
+      $("#myNavSearch").addClass("myNavSearchOn");
+      $("html").css("overflow", "hidden");
+    });
+  }); //Cart
+
+  $(function () {
+    $(".btn-cart").click(function () {
+      $("#myNavCart").css("width", "31%");
+      $(".nav-cart__overlay").fadeIn();
+    });
+    $(".closebtn-cart").click(function () {
+      $("#myNavCart").css("width", "0%");
+      $(".nav-cart__overlay").fadeOut();
+    });
+    $(".nav-cart__overlay").click(function () {
+      $("#myNavCart").css("width", "0%");
+      $(".nav-cart__overlay").fadeOut();
     });
   }); //Carousel
 
