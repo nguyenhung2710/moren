@@ -138,8 +138,108 @@ a:hover {
 .site-header .myNavOn {
   display: block !important;
 }
-.site-header .myNavSearchOn {
-  display: flex !important;
+.site-header .nav-login, .site-header .nav-regis {
+  background-color: #fff;
+  z-index: 2;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 40px 20px;
+  width: 38%;
+  display: none;
+}
+.site-header .nav-login__title, .site-header .nav-regis__title {
+  display: flex;
+  justify-content: space-between;
+}
+.site-header .nav-login__title span, .site-header .nav-regis__title span {
+  font-weight: 500;
+}
+.site-header .nav-login__title-right, .site-header .nav-login__title-left, .site-header .nav-regis__title-right, .site-header .nav-regis__title-left {
+  color: #9771b0;
+  cursor: pointer;
+  width: 20%;
+}
+.site-header .nav-login__title-right img, .site-header .nav-login__title-left img, .site-header .nav-regis__title-right img, .site-header .nav-regis__title-left img {
+  filter: invert(50%) sepia(11%) saturate(1401%) hue-rotate(233deg) brightness(96%) contrast(94%);
+  width: 22%;
+  margin-right: 5px;
+}
+.site-header .nav-login__input, .site-header .nav-regis__input {
+  display: flex;
+  flex-direction: column;
+}
+.site-header .nav-login__input input, .site-header .nav-regis__input input {
+  border: 1px solid #ebebeb;
+  transition: all 0.3s ease;
+  height: 60px;
+  line-height: 58px;
+  width: 100%;
+  padding: 0 20px;
+  vertical-align: middle;
+  background-color: transparent;
+  color: inherit;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.site-header .nav-login__input input::placeholder, .site-header .nav-regis__input input::placeholder {
+  color: #000;
+}
+.site-header .nav-login__input input:focus, .site-header .nav-regis__input input:focus {
+  border-color: #bbb;
+  outline: 0;
+}
+.site-header .nav-login__input input:first-child, .site-header .nav-regis__input input:first-child {
+  margin-top: 20px;
+}
+.site-header .nav-login__button, .site-header .nav-regis__button {
+  width: 100%;
+  height: 50px;
+  min-width: 150px;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 18px 30px;
+  cursor: pointer;
+  border: none;
+}
+.site-header .nav-login__button:hover, .site-header .nav-regis__button:hover {
+  transition: 0.3s;
+  background-color: #9771b0;
+}
+.site-header .nav-login .lost-pass, .site-header .nav-regis .lost-pass {
+  font-size: 14px;
+}
+.site-header .nav-login .lost-pass:hover, .site-header .nav-regis .lost-pass:hover {
+  color: #9771b0;
+  text-decoration-line: underline;
+}
+.site-header .nav-login form, .site-header .nav-regis form {
+  border-top: 2px solid #9771b0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.site-header .nav-regis {
+  display: none;
+  padding: 34px 20px 20px;
+}
+.site-header .nav-regis__title-left {
+  width: 14%;
+}
+.site-header .nav-regis__title-left img {
+  width: 26%;
+}
+.site-header .nav-regis__policy {
+  font-size: 10px;
+  line-height: 18px;
+  display: block;
+  margin-bottom: 20px;
+}
+.site-header .nav-regis__policy-link:hover {
+  color: #9771b0;
 }
 .site-header .nav-search {
   border-bottom: 2px solid #fff;
@@ -189,7 +289,6 @@ a:hover {
   background-color: black;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
-  transition: 0.5s;
 }
 .site-header .overlay-content {
   display: flex;
@@ -221,12 +320,14 @@ a:hover {
   position: absolute;
   top: 13%;
   right: 9%;
-  font-size: 70px;
-  font-weight: 300;
 }
-.site-header .overlay .closebtn:hover {
+.site-header .overlay .closebtn:hover .closebtn__item {
   transform: rotate(90deg);
   color: #9771b0;
+}
+.site-header .overlay .closebtn__item {
+  font-size: 70px;
+  font-weight: 300;
 }
 .site-header .overlay .closebtn-search {
   position: absolute;
@@ -278,6 +379,19 @@ a:hover {
   color: #9771b0;
   transform: rotate(90deg);
 }
+.site-header .overlay-user {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: #444;
+  overflow-x: hidden;
+  display: none;
+  opacity: 0.9;
+  cursor: pointer;
+}
 .site-header .nav-cart__overlay {
   position: fixed;
   right: 0;
@@ -288,6 +402,7 @@ a:hover {
   opacity: 0.7;
   z-index: 1;
   display: none;
+  cursor: pointer;
 }
 .site-header .sh-content-wrap {
   width: 100%;
@@ -345,6 +460,40 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.site-header .close-user {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  height: 16%;
+  width: 11.6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+  background-color: #333;
+  position: absolute;
+  right: -5%;
+  top: -8%;
+  cursor: pointer;
+}
+.site-header .close-user:hover {
+  background-color: #9771b0;
+}
+.site-header .close-user__item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-header .close-user__item:hover {
+  transform: rotate(90deg);
+}
+.site-header .close-user--btn {
+  height: 12%;
+  width: 11%;
 }
 .site-hd__on {
   background-color: #fff;
@@ -1729,6 +1878,6 @@ a:hover {
   transition: 0.4s;
 }
 
-.site-header .myNavOn, .site-header .myNavSearchOn {
+.site-header .myNavOn {
   animation: showAmt 0.3s linear;
 }

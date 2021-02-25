@@ -17,7 +17,9 @@
             <header class="site-header">
                 <div class="container">
                     <div id="myNav" class="overlay">
-                        <a href="javascript:void(0)" class="closebtn">&times;</a>
+                        <div class="closebtn">
+                            <a href="javascript:void(0)" class="closebtn__item">&times;</a>
+                        </div>
                         <div class="overlay-content">
                             <a href="#">Home</a>
                             <a href="#">Shop</a>
@@ -49,6 +51,52 @@
                             <p>No products in the cart.</p>
                         </div>
                     </div>
+                    <div id="myNavUser" class="overlay-user"></div>
+                    <div class="nav-login">
+                        <button class="close-user">
+                            <a href="javascript:void(0)" class="close-user__item">&times;</a>
+                        </button>
+                        <div class="nav-login__title">
+                            <span>LOGIN</span>
+                            <div class="nav-login__title-right">
+                                <img src="assets/icon/user-plus.svg" alt="user" width="100">
+                                Register
+                            </div>
+                        </div>
+                        <form action="" method="get">
+                            <div class="nav-login__input">
+                                <input type="text" name="text" placeholder="Username or email address *" required>
+                                <input type="password" name="password" placeholder="Password *" required>
+                            </div>
+                            <button type="submit" class="nav-login__button" name="login">LOG IN</button>
+                        </form>
+                        <a href="#" class="lost-pass">Lost your password?</a>
+                    </div>
+                    <div class="nav-regis">
+                        <button class="close-user close-user--btn">
+                            <a href="javascript:void(0)" class="close-user__item">&times;</a>
+                        </button>
+                        <div class="nav-regis__title">
+                            <div class="nav-regis__title-left">
+                                <img src="assets/icon/user-check.svg" alt="user">
+                                Login
+                            </div>
+                            <span>REGISTER</span>
+                        </div>
+                        <form action="" method="get">
+                            <div class="nav-regis__input">
+                                <input type="text" name="text" placeholder="Username *" required>
+                                <input type="email" name="email" placeholder="Email address *" required>
+                                <input type="password" name="password" placeholder="Password *" required>
+                            </div>
+                            <span class="nav-regis__policy">
+                                Your personal data will be used to support your experience throughout this website,
+                                to manage access to your account, and for other purposes described in our
+                                <a href="#" class="nav-regis__policy-link" target="_blank">privacy policy</a>
+                            </span>
+                            <button type="submit" class="nav-regis__button" name="regis">REGISTER</button>
+                        </form>
+                    </div>
                     <div class="sh-content-wrap">
                         <div class="sh-col sh-col__left">
                             <div class="openbtn">
@@ -66,7 +114,7 @@
                                     <img src="assets/icon/search.svg" alt="search">
                                 </a>
                             </div>
-                            <div class="sh-col__right-item">
+                            <div class="sh-col__right-item btn-user">
                                 <a href="#">
                                     <img src="assets/icon/user.svg" alt="user">
                                 </a>

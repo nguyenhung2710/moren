@@ -23,13 +23,12 @@ jQuery(document).ready(function ($) {
 
   $(function () {
     $(".closebtn-search").click(function () {
-      //$("#myNavSearch").fadeOut("slow");
-      $("#myNavSearch").removeClass("myNavSearchOn");
+      $("#myNavSearch").fadeOut();
       $("html").css("overflow", "unset");
     });
     $(".btn-search").click(function () {
-      //$("#myNavSearch").fadeIn("slow");
-      $("#myNavSearch").addClass("myNavSearchOn");
+      $("#myNavSearch").fadeIn();
+      $("#myNavSearch").css("display", "flex");
       $("html").css("overflow", "hidden");
     });
   }); //Cart
@@ -48,6 +47,34 @@ jQuery(document).ready(function ($) {
     $(".nav-cart__overlay").click(function () {
       $("#myNavCart").css("width", "0%");
       $(".nav-cart__overlay").fadeOut();
+    });
+  }); //User
+
+  $(function () {
+    //Close
+    $(".close-user__item").click(function () {
+      $(".nav-login, .overlay-user, .nav-regis").fadeOut();
+      $("html").css("overflow", "unset");
+    }); //Layer
+
+    $("#myNavUser").click(function () {
+      $(".nav-login, .overlay-user, .nav-regis").fadeOut();
+      $("html").css("overflow", "unset");
+    }); //Login
+
+    $(".btn-user").click(function () {
+      $(".nav-login, .overlay-user").fadeIn();
+      $("html").css("overflow", "hidden");
+    });
+    $(".nav-regis__title-left").click(function () {
+      $(".nav-login").show();
+      $(".nav-regis").hide();
+      $("html").css("overflow", "hidden");
+    }); //Register
+
+    $(".nav-login__title-right").click(function () {
+      $(".nav-login").hide();
+      $(".nav-regis").show();
     });
   }); //Carousel
 
@@ -126,8 +153,7 @@ jQuery(document).ready(function ($) {
         }
       }]
     });
-  }); //IMG Sec-2
-  //IMG Sec-5
+  }); //IMG Sec-5
 
   $(function () {
     var window_height = $(window).height();
