@@ -38,10 +38,12 @@ jQuery(document).ready(function ($) {
     $(".btn-cart").click(function () {
       $("#myNavCart").css("width", "31%");
       $(".nav-cart__overlay").fadeIn();
+      $("html").css("overflow", "hidden");
     });
     $(".closebtn-cart").click(function () {
       $("#myNavCart").css("width", "0%");
       $(".nav-cart__overlay").fadeOut();
+      $("html").css("overflow", "unset");
     });
     $(".nav-cart__overlay").click(function () {
       $("#myNavCart").css("width", "0%");

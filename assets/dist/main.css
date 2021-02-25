@@ -143,7 +143,7 @@ a:hover {
 }
 .site-header .nav-search {
   border-bottom: 2px solid #fff;
-  width: fit-content;
+  width: max-content;
   text-align: center;
 }
 .site-header .nav-search input {
@@ -816,7 +816,7 @@ a:hover {
 }
 .site-main .section-eight .sec-8__form {
   border-bottom: 1px solid #fff;
-  width: fit-content;
+  width: max-content;
   margin: 0 auto;
   position: relative;
 }
@@ -922,7 +922,7 @@ a:hover {
   flex-direction: column;
 }
 .site-footer .grid__column:nth-child(2) .site-ft__sec-1 .site-ft__company .grid__column, .site-footer .grid__column:nth-child(2) .site-ft__sec-1 .site-ft__useful .grid__column {
-  width: fit-content;
+  width: max-content;
 }
 .site-footer .grid__column:nth-child(2) .site-ft__sec-1 .site-ft__company a, .site-footer .grid__column:nth-child(2) .site-ft__sec-1 .site-ft__useful a {
   margin-bottom: 10px;

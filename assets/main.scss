@@ -42,7 +42,7 @@ a {
 
         .nav-search {
             border-bottom: 2px solid #fff;
-            width: fit-content;
+            width: max-content;
             text-align: center;
             input {
                 background-color: transparent;
@@ -816,7 +816,7 @@ a {
                 .sec-8 {
                     &__form {
                         border-bottom: 1px solid #fff;
-                        width: fit-content;
+                        width: max-content;
                         margin: 0 auto;
                         position: relative;
                         input {
@@ -944,7 +944,7 @@ a {
                                     flex-direction: column;
                                 }
                                 .grid__column {
-                                    width: fit-content;
+                                    width: max-content;
                                 }
                                 a {
                                     margin-bottom: 10px;
