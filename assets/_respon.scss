@@ -47,6 +47,52 @@
                     }
                 }
             }
+            .nav {
+                &-search {
+                    width: 84%;
+                    text-align: center;
+                    margin: 0 auto;
+                    &__item {
+                        input {
+                            width: 350px;
+                            font-size: 20px;
+                            max-width: 100%;
+                            padding-left: 25px;
+                        }
+                        a {
+                            width: 100%;
+                            text-align: right;
+                            img {
+                                width: 54%;
+                            }
+                        }
+                    }
+                    p {
+                        margin: 0 auto;
+                    }
+                }
+                &-login,
+                &-regis {
+                    width: 300px;
+                    &__title {
+                        &-right,
+                        &-left {
+                            width: 34%;
+                        }
+                    }
+                }
+            }
+            .close-user {
+                height: 13%;
+                width: 50px;
+                font-size: 30px;
+                right: -6%;
+                &--btn {
+                    width: 18%;
+                    height: 11%;
+                    top: -6%;
+                }
+            }
         }
         &-main {
             .section {
@@ -374,6 +420,13 @@
     .site {
         &-header {
             background-color: #fff;
+            .nav-search__item {
+                input {
+                    width: 680px;
+                    max-width: 100%;
+                    font-size: 22px;
+                }
+            }
         }
         &-main {
             margin-top: 120px;

@@ -46,7 +46,8 @@ a {
                 transform: translate(-50% ,-50%);
                 text-align: center;
                 padding: 40px 20px;
-                width: 38%;
+                width: 500px;
+                max-width: 100%;
                 display: none;
                 &__title {
                     display: flex;
@@ -59,6 +60,7 @@ a {
                         color: $main-color;
                         cursor: pointer;
                         width: 20%;
+                        text-align: right;
                         img {
                             filter: invert(50%) sepia(11%) saturate(1401%) hue-rotate(233deg) brightness(96%) contrast(94%);
                             width: 22%;
@@ -128,7 +130,8 @@ a {
                 padding: 34px 20px 20px;
                 &__title {
                     &-left {
-                        width: 14%;
+                        width: 16%;
+                        text-align: left;
                         img {
                             width: 26%;
                         }

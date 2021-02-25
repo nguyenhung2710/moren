@@ -147,7 +147,8 @@ a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
   padding: 40px 20px;
-  width: 38%;
+  width: 500px;
+  max-width: 100%;
   display: none;
 }
 .site-header .nav-login__title, .site-header .nav-regis__title {
@@ -161,6 +162,7 @@ a:hover {
   color: #9771b0;
   cursor: pointer;
   width: 20%;
+  text-align: right;
 }
 .site-header .nav-login__title-right img, .site-header .nav-login__title-left img, .site-header .nav-regis__title-right img, .site-header .nav-regis__title-left img {
   filter: invert(50%) sepia(11%) saturate(1401%) hue-rotate(233deg) brightness(96%) contrast(94%);
@@ -227,7 +229,8 @@ a:hover {
   padding: 34px 20px 20px;
 }
 .site-header .nav-regis__title-left {
-  width: 14%;
+  width: 16%;
+  text-align: left;
 }
 .site-header .nav-regis__title-left img {
   width: 26%;
@@ -1414,6 +1417,44 @@ a:hover {
     position: absolute;
     left: 16%;
   }
+  .site-header .nav-search {
+    width: 84%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .site-header .nav-search__item input {
+    width: 350px;
+    font-size: 20px;
+    max-width: 100%;
+    padding-left: 25px;
+  }
+  .site-header .nav-search__item a {
+    width: 100%;
+    text-align: right;
+  }
+  .site-header .nav-search__item a img {
+    width: 54%;
+  }
+  .site-header .nav-search p {
+    margin: 0 auto;
+  }
+  .site-header .nav-login, .site-header .nav-regis {
+    width: 300px;
+  }
+  .site-header .nav-login__title-right, .site-header .nav-login__title-left, .site-header .nav-regis__title-right, .site-header .nav-regis__title-left {
+    width: 34%;
+  }
+  .site-header .close-user {
+    height: 13%;
+    width: 50px;
+    font-size: 30px;
+    right: -6%;
+  }
+  .site-header .close-user--btn {
+    width: 18%;
+    height: 11%;
+    top: -6%;
+  }
   .site-main .section-one .grid__column:first-child {
     width: 54%;
     padding: 0px 0 60px 40px;
@@ -1674,6 +1715,11 @@ a:hover {
 @media screen and (min-width: 740px) and (max-width: 1023px) {
   .site-header {
     background-color: #fff;
+  }
+  .site-header .nav-search__item input {
+    width: 680px;
+    max-width: 100%;
+    font-size: 22px;
   }
   .site-main {
     margin-top: 120px;
