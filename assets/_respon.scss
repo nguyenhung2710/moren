@@ -207,15 +207,8 @@
                 &-five {
                     margin-right: -6px;
                     .sec-5 {
-                        &__1,
-                        &__2 {
-                            .grid__column {
-                                width: 48%;
-                                &:nth-child(1),
-                                &:nth-child(2) {
-                                    margin-bottom: 6px;
-                                }
-                            }
+                        .grid__column {
+                            width: 50%;
                         }
                         &__content {
                             .h5morem {
@@ -283,6 +276,9 @@
                         &-prev,
                         &-next {
                             background-size: 25px;
+                            &:hover {
+                                filter: invert(99%) sepia(32%) saturate(5414%) hue-rotate(183deg) brightness(125%) contrast(73%);
+                            }
                         }
                     }
                     .sec-7 {
@@ -533,6 +529,16 @@
                         left: 0;
                         justify-content: center;
                         width: 100%;
+                    }
+                }
+                &-seven {
+                    .slick {
+                        &-prev,
+                        &-next {
+                            &:hover {
+                                filter: invert(99%) sepia(32%) saturate(5414%) hue-rotate(183deg) brightness(125%) contrast(73%);
+                            }
+                        }
                     }
                 }
                 &-eight {

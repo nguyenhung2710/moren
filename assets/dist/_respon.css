@@ -164,11 +164,8 @@
   .site-main .section-five {
     margin-right: -6px;
   }
-  .site-main .section-five .sec-5__1 .grid__column, .site-main .section-five .sec-5__2 .grid__column {
-    width: 48%;
-  }
-  .site-main .section-five .sec-5__1 .grid__column:nth-child(1), .site-main .section-five .sec-5__1 .grid__column:nth-child(2), .site-main .section-five .sec-5__2 .grid__column:nth-child(1), .site-main .section-five .sec-5__2 .grid__column:nth-child(2) {
-    margin-bottom: 6px;
+  .site-main .section-five .sec-5 .grid__column {
+    width: 50%;
   }
   .site-main .section-five .sec-5__content .h5morem {
     font-size: 22px;
@@ -227,6 +224,9 @@
   }
   .site-main .section-seven .slick-prev, .site-main .section-seven .slick-next {
     background-size: 25px;
+  }
+  .site-main .section-seven .slick-prev:hover, .site-main .section-seven .slick-next:hover {
+    filter: invert(99%) sepia(32%) saturate(5414%) hue-rotate(183deg) brightness(125%) contrast(73%);
   }
   .site-main .section-seven .sec-7 {
     padding: 45px 0px;
@@ -405,6 +405,9 @@
     left: 0;
     justify-content: center;
     width: 100%;
+  }
+  .site-main .section-seven .slick-prev:hover, .site-main .section-seven .slick-next:hover {
+    filter: invert(99%) sepia(32%) saturate(5414%) hue-rotate(183deg) brightness(125%) contrast(73%);
   }
   .site-main .section-eight .h3morem {
     font-size: 30px;

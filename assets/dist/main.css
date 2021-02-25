@@ -500,7 +500,6 @@ a:hover {
 }
 .site-hd__on {
   background-color: #fff;
-  animation: navBar 0.5s linear;
 }
 .site-main .section-one .slick-initialized, .site-main .section-one .slick-slide {
   display: block;
@@ -538,6 +537,7 @@ a:hover {
 .site-main .section-one .slick-slide .grid__column img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .site-main .section-one .grid__column:first-child {
   display: flex;
@@ -701,22 +701,23 @@ a:hover {
   width: 12%;
   margin: 25px auto 80px;
 }
-.site-main .section-five .sec-5__1 {
+.site-main .section-five .sec-5 {
   margin-bottom: 6px;
 }
-.site-main .section-five .sec-5__1 .grid, .site-main .section-five .sec-5__2 .grid {
+.site-main .section-five .sec-5 .grid {
   margin-left: -4px;
   margin-right: -4px;
 }
-.site-main .section-five .sec-5__1 .grid__column, .site-main .section-five .sec-5__2 .grid__column {
+.site-main .section-five .sec-5 .grid__column {
   padding: 0;
-  width: 24.6%;
-  margin-right: 6px !important;
 }
-.site-main .section-five .sec-5__1 .grid__column:nth-child(4), .site-main .section-five .sec-5__2 .grid__column:nth-child(4) {
-  margin-right: 0 !important;
+.site-main .section-five .sec-5 .grid__column .sec-5__item {
+  position: relative;
+  display: block;
+  margin-bottom: 6px;
+  margin-right: 6px;
 }
-.site-main .section-five .sec-5__1 .grid__column a:hover .sec-5__img img, .site-main .section-five .sec-5__2 .grid__column a:hover .sec-5__img img {
+.site-main .section-five .sec-5 .grid__column .sec-5__item:hover .sec-5__img img {
   transform: scale(1.1);
   transition: transform 0.18s linear;
 }
@@ -787,6 +788,9 @@ a:hover {
 .site-main .section-six .sec-6__img img:hover {
   transform: scale(1.2);
   transition: transform 1.2s linear;
+}
+.site-main .section-six .sec-6__main {
+  padding-right: 10px;
 }
 .site-main .section-six .sec-6__main-logo {
   display: flex;
@@ -921,12 +925,12 @@ a:hover {
 }
 .site-main .section-seven .slick-prev {
   background: url("../icon/long-arrow-left.svg") no-repeat 1px -8px;
-  left: 0px;
+  left: 4%;
   background-size: 38px;
 }
 .site-main .section-seven .slick-next {
   background: url("../icon/long-arrow-right.svg") no-repeat 1px -8px;
-  right: 0px;
+  right: 4%;
   background-size: 38px;
 }
 .site-main .section-eight {
@@ -1217,7 +1221,7 @@ a:hover {
 .product_item__inner {
   position: relative;
   overflow: hidden;
-  margin-right: 30px;
+  margin: 0 15px;
 }
 .product_item__inner:hover .product_item__info {
   opacity: 1;
@@ -1308,7 +1312,7 @@ a:hover {
   transform: translateX(-50%);
 }
 .wrap-addto .button__img {
-  height: 40px;
+  height: 44px;
   margin: 0 auto;
 }
 
@@ -1344,6 +1348,11 @@ a:hover {
   color: #9771b0;
 }
 
+@-moz-document url-prefix() {
+  .wrap-addto .button .labtn-text::after {
+    bottom: -19px;
+  }
+}
 @keyframes showAmt {
   from {
     opacity: 0;
@@ -1550,11 +1559,8 @@ a:hover {
   .site-main .section-five {
     margin-right: -6px;
   }
-  .site-main .section-five .sec-5__1 .grid__column, .site-main .section-five .sec-5__2 .grid__column {
-    width: 48%;
-  }
-  .site-main .section-five .sec-5__1 .grid__column:nth-child(1), .site-main .section-five .sec-5__1 .grid__column:nth-child(2), .site-main .section-five .sec-5__2 .grid__column:nth-child(1), .site-main .section-five .sec-5__2 .grid__column:nth-child(2) {
-    margin-bottom: 6px;
+  .site-main .section-five .sec-5 .grid__column {
+    width: 50%;
   }
   .site-main .section-five .sec-5__content .h5morem {
     font-size: 22px;
@@ -1613,6 +1619,9 @@ a:hover {
   }
   .site-main .section-seven .slick-prev, .site-main .section-seven .slick-next {
     background-size: 25px;
+  }
+  .site-main .section-seven .slick-prev:hover, .site-main .section-seven .slick-next:hover {
+    filter: invert(99%) sepia(32%) saturate(5414%) hue-rotate(183deg) brightness(125%) contrast(73%);
   }
   .site-main .section-seven .sec-7 {
     padding: 45px 0px;
@@ -1791,6 +1800,9 @@ a:hover {
     left: 0;
     justify-content: center;
     width: 100%;
+  }
+  .site-main .section-seven .slick-prev:hover, .site-main .section-seven .slick-next:hover {
+    filter: invert(99%) sepia(32%) saturate(5414%) hue-rotate(183deg) brightness(125%) contrast(73%);
   }
   .site-main .section-eight .h3morem {
     font-size: 30px;
